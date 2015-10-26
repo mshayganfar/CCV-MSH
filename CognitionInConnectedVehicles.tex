@@ -92,23 +92,22 @@ hypothesized as the building blocks of one's immediate behavior. Figure
 vehicles receive data from both their own local sensory system (e.g., GPS) and
 their neighbor vehicles (e.g., an abrupt change in their velocities).
 \textit{Encode} is the transformation of the sensory data into features that the
-cognitive system can process. In the cognitive architectures using BDI paradigm
-each sensory data will be tranformed into a new \textit{belief}. The cognitive
-architecture will be able to use these beliefs in different processes. For
-example, in connected vehicles there will be a belief about the current
-accelaration value of the vehicle which corresponds to the sensory data
-indicating this value. \textit{Attend} is the act of shifting or maintaining the
-focus of attention on an event. For instance, an alert raised because of a
-sudden speed reduction of multiple leading neighbor vehicles needs to be
-attended immediately while the same alert does not need the same level of
-attention if the leading vehicles are a few miles apart. \textit{Comprehend} is
-the act of trnasforming an event into a goal or task-spcific representation and
-inferring the curent status of the world. For instance, a vehicle receiving an
-alert requiring an immediate reaction needs to identify the cause of the problem
-even though the alert has raised and received from another vehicle. Thus, the
-receiver of the alert can apply replanning if necessary.
-
-\textit{Tasking}
+cognitive system can process. In the cognitive architectures using Bratman's BDI
+paradigm \cite{bratman:intentions-plans} each sensory data will be tranformed
+into a new \textit{belief}. The cognitive architecture will be able to use these
+beliefs in different processes. For example, in connected vehicles there will be
+a belief about the current accelaration value of the vehicle which corresponds
+to the sensory data indicating this value. \textit{Attend} is the act of
+shifting or maintaining the focus of attention on an event. For instance, an
+alert raised because of a sudden speed reduction of multiple leading neighbor
+vehicles needs to be attended immediately while the same alert does not need the
+same level of attention if the leading vehicles are a few miles apart.
+\textit{Comprehend} is the act of trnasforming an event into a goal or
+task-spcific representation and inferring the curent status of the world. For
+instance, a vehicle receiving an alert requiring an immediate reaction needs to
+identify the cause of the problem even though the alert has raised and received
+from another vehicle. Thus, the receiver of the alert can apply replanning if
+necessary.
 
 \begin{figure}[tbh]
   \centering
@@ -116,6 +115,23 @@ receiver of the alert can apply replanning if necessary.
   \caption{{\fontsize{10}{10}\selectfont PEACTIDM}}
   \label{fig:peactidm}
 \end{figure}
+
+\textit{Tasking} is the process of recognizing a goal based on the new state of
+the world. For example, a vehicle can recognize a goal in the plan to exit the
+highway with respect to the new beliefs about an accident a few miles ahead and
+the current state of the highway which causes constant speed reduction.
+\textit{Intend} initiates a future action based on the current goal as response
+to the current event. For instance, if the current goal of the vehicle is to
+leave the highway, the vehicle begins to change the lane to the right most to be
+able to take the next exit. \textit{Decode} translates the response based on the
+given \textit{intention} into a series of motor actions. For instance, if the
+intention is changing the lane to the right, The vehicle applies a series of
+actions including using the right blinker, checking the occupancy status of the
+right lane, and turning the steering wheel to the right whenever it is
+appropriate. \textit{Motor} executes the actions decoded based on the given
+intention. For example, in case of a lane change, the blinker starts to blink
+and the wheels turn to the right respective to the amount of change on the
+steering wheel.
 
 \section{{\fontsize{11.5}{9}\selectfont Affective Motivational Collaboration
 Theory}}
