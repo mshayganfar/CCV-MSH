@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  26 OCT 2015 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  26 OCT 2015 17:37
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -533,28 +533,35 @@ Package pdftex.def Info: figs/theory-general-croped.pdf used on input line 163.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/theory-general-croped.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->] (./CognitionInConnectedVehicles.bbl) [3
+>] <figs/peactidm-amct-croped.pdf, id=41, 439.6425pt x 189.70876pt>
+File: figs/peactidm-amct-croped.pdf Graphic file (type pdf)
 
-] (./CognitionInConnectedVehicles.aux) ) 
+<use figs/peactidm-amct-croped.pdf>
+Package pdftex.def Info: figs/peactidm-amct-croped.pdf used on input line 189.
+(pdftex.def)             Requested size: 250.26031pt x 107.98747pt.
+ (./CognitionInConnectedVehicles.bbl)
+[3
+
+ <./figs/peactidm-amct-croped.pdf>] (./CognitionInConnectedVehicles.aux) ) 
 Here is how much of TeX's memory you used:
- 6130 strings out of 493304
- 92603 string characters out of 6139871
- 174719 words of memory out of 5000000
- 9412 multiletter control sequences out of 15000+600000
+ 6136 strings out of 493304
+ 92781 string characters out of 6139871
+ 174727 words of memory out of 5000000
+ 9417 multiletter control sequences out of 15000+600000
  50900 words of font info for 117 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,7n,46p,344b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/en
-c/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (3 pages, 109811 bytes).
+{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CognitionInConnectedVehicles.pdf (3 pages, 130176 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
