@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Wed Oct 14 09:52:32 EDT 2015
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=CognitionInConnectedVehicles.tex
+outputFile=CognitionInConnectedVehicles.pdf
+langSpell=en
+markDer=true
+srcDir=
