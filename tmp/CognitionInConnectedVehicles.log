@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  26 OCT 2015 17:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  27 OCT 2015 19:41
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -511,57 +511,62 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
 
 ** ATTENTION: \keywords is deprecated (line 36). Use \IEEEkeywords instead.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+<figs/pareto-croped.pdf, id=1, 306.14375pt x 284.06125pt>
+File: figs/pareto-croped.pdf Graphic file (type pdf)
+
+<use figs/pareto-croped.pdf>
+Package pdftex.def Info: figs/pareto-croped.pdf used on input line 81.
+(pdftex.def)             Requested size: 237.36346pt x 220.24052pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-<figs/peactidm-croped.pdf, id=12, 432.61626pt x 188.705pt>
+ <./figs/pareto-croped.pdf>]
+<figs/peactidm-croped.pdf, id=33, 432.61626pt x 188.705pt>
 File: figs/peactidm-croped.pdf Graphic file (type pdf)
 
 <use figs/peactidm-croped.pdf>
-Package pdftex.def Info: figs/peactidm-croped.pdf used on input line 114.
+Package pdftex.def Info: figs/peactidm-croped.pdf used on input line 121.
 (pdftex.def)             Requested size: 250.26031pt x 109.16103pt.
 
-<figs/theory-general-croped.pdf, id=13, 430.60875pt x 294.09875pt>
+<figs/theory-general-croped.pdf, id=34, 430.60875pt x 294.09875pt>
 File: figs/theory-general-croped.pdf Graphic file (type pdf)
 
 <use figs/theory-general-croped.pdf>
-Package pdftex.def Info: figs/theory-general-croped.pdf used on input line 163.
+Package pdftex.def Info: figs/theory-general-croped.pdf used on input line 170.
 
 (pdftex.def)             Requested size: 250.26031pt x 170.92741pt.
- [2 <./figs/peactidm-croped.pdf> <./figs/theory-general-croped.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/theory-general-croped.pdf): PDF 
-inclusion: multiple pdfs with page group included in a single page
->] <figs/peactidm-amct-croped.pdf, id=41, 439.6425pt x 189.70876pt>
+ [2 <./figs/peactidm-croped.pdf>]
+<figs/peactidm-amct-croped.pdf, id=55, 439.6425pt x 189.70876pt>
 File: figs/peactidm-amct-croped.pdf Graphic file (type pdf)
 
 <use figs/peactidm-amct-croped.pdf>
-Package pdftex.def Info: figs/peactidm-amct-croped.pdf used on input line 189.
+Package pdftex.def Info: figs/peactidm-amct-croped.pdf used on input line 196.
 (pdftex.def)             Requested size: 250.26031pt x 107.98747pt.
  (./CognitionInConnectedVehicles.bbl)
-[3
+[3 <./figs/theory-general-croped.pdf> <./figs/peactidm-amct-croped.pdf
 
- <./figs/peactidm-amct-croped.pdf>] (./CognitionInConnectedVehicles.aux) ) 
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/peactidm-amct-croped.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] (./CognitionInConnectedVehicles.aux) ) 
 Here is how much of TeX's memory you used:
- 6136 strings out of 493304
- 92781 string characters out of 6139871
- 174727 words of memory out of 5000000
- 9417 multiletter control sequences out of 15000+600000
+ 6142 strings out of 493304
+ 92917 string characters out of 6139871
+ 175735 words of memory out of 5000000
+ 9422 multiletter control sequences out of 15000+600000
  50900 words of font info for 117 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  42i,7n,46p,344b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (3 pages, 130176 bytes).
+{/usr/share/texlive/texmf-dist/fonts/e
+nc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on CognitionInConnectedVehicles.pdf (3 pages, 149214 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
