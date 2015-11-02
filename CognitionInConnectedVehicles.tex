@@ -41,7 +41,7 @@ cognition, connected vehicles ...
 \section{Introduction}
 %
 Intelligent transportation systems (ITS) will form an integral part of society's
-transportation infrastructure within few years
+transportation infrastructure within few years.
 
 \subsection{Roads as Social Environments}
 
@@ -96,9 +96,23 @@ needs to maintain its own objectives while recognizing objectives of the others.
 
 Let's consider two general objectives, \textit{Safety} and \textit{Comfort}, for
 any driver while driving between the source and the destination. Indeed, all the
-drivers would like to maximize both of these objectives while driving. However,
-while they need to obey the traffic law, they need to take into account their
-neighbors' driving behaviors.
+drivers would like to maximize both of these objectives. However, while they
+need to obey the traffic law, they need to take into account their neighbors'
+driving behaviors, and respect their objectives. In the example shown in Figure
+\ref{fig:pareto}, the red car's driver wants to maximize her own safety and
+comfort to her aspiration level for both objectives to obtain the ``preferred''
+point. We believe at least for certain redius, the red vehicle should consider
+objectives of the other vehicles in that neighborhood (four vehicles shown in
+green), and update their anticipated and its own state based on their behaviors.
+To achieve this goal, a cognitive system should be able to make decisions with
+which it is impossible to change the state of self better off without making the
+state of at least one of the neighbors worse off. Therefore, the cognitive
+system's decision for any given event should be a pareto optimal solution, since
+the neighboring connected vehicles' objectives are important for each individual
+vehicle. Here, we only used the concept of pareto optimality to discuss the type
+of decisions a cognitive system of a vehicle should make. Our cognitive system
+and the underlying mechanisms do not take a game theoretic approach to make
+decisions.
 
 \subsection{Cognition Systems}
 
@@ -163,24 +177,33 @@ Theory}}
 
 \textit{Affective Motivational Collaboration Theory} is about the interpretation
 and prediction of observable behaviors in a dyadic collaborative interaction.
-This theory is built on the foundations of the \textit{SharedPlans} theory of
-collaboration \cite{grosz:plans-discourse} and the \textit{cognitive appraisal}
-theory of emotions \cite{gratch:domain-independent}. The theory focuses on the
-processes regulated by emotional states. The observable behaviors represent the
-outcome of reactive and deliberative processes related to the interpretation of
-the self's relationship to the collaborative environment. Affective Motivational
+Affective Motivational Collaboration Theory specifies the processes involved in
+the progress of a collaboration and how they impact the collaboration's
+underlying structure. This theory is built on the foundations of the
+\textit{SharedPlans} theory of collaboration \cite{grosz:plans-discourse} and
+the \textit{cognitive appraisal} theory of emotions
+\cite{gratch:domain-independent}.
+
+The theory focuses on the processes regulated by emotional states. It aims to
+explain both rapid emotional reactions to events as well as slower, more
+deliberative responses. The observable behaviors represent the outcome of
+reactive and deliberative processes related to the interpretation of the self's
+relationship to the collaborative environment. Affective Motivational
 Collaboration Theory aims to explain both rapid emotional reactions to events as
 well as slower, more deliberative responses. The reactive and deliberative
 processes are triggered by two types of events: \textit{external} events, such
-as the other's \textit{utterances} and \textit{primitive actions}, and
+as the other's \textit{nonverbal behaviors} and \textit{primitive actions}, and
 \textit{internal} events, comprising changes in the self's mental states, such
-as belief formation and emotional changes. Affective Motivational Collaboration
-Theory explains how emotions regulate the underlying processes when these events
-occur during collaboration. This theory elucidates the role of motives as
-goal-driven affect-regulated constructs with which an agent can form new
-intentions to cope with internal and external events. The focus of underlying
-mechanisms is on the ones depicted as mental processes in Figure
-\ref{fig:cpm} along with the mental states.
+as belief formation and emotional changes.
+
+Affective Motivational Collaboration Theory explains how emotions regulate the
+underlying processes when these events occur during collaboration. This theory
+elucidates the role of motives as goal-driven affect-regulated constructs with
+which an agent can form new intentions to cope with internal and external
+events. Therefore, a new motive can become a new intention and the self can take
+a new action based on the new intention.  The focus of underlying mechanisms is
+on the ones depicted as mental processes in Figure \ref{fig:cpm} along with the
+mental states.
 
 \begin{figure}[tbh]
   \centering
@@ -191,22 +214,35 @@ mechanisms is on the ones depicted as mental processes in Figure
   \label{fig:cpm}
 \end{figure}
 
-The \textit{Mental States} includes self's (robot's) beliefs, intentions,
+The \textit{Mental States} includes ego's (vehicle's) beliefs, intentions,
 motives, goals and emotion instances as well as the anticipated Mental States of
-the other (human). The \textit{Collaboration} mechanism maintains constraints on
-actions, including task states and the ordering of tasks. The
-\textit{Collaboration} mechanism also provides processes to update and monitor
-the shared plan. The \textit{Appraisal} mechanism is responsible for evaluating
-changes in the self's Mental States, the anticipated Mental States of the other,
-and the state of the collaboration environment. The \textit{Coping} mechanism
-provides the self with different coping strategies associated with changes in
-the self's mental states with respect to the state of the collaboration. The
-\textit{Motivation} mechanism operates whenever the self a) requires a new
-motive to overcome an internal impasse in an ongoing task, or b) wants to
-provide an external motive to the other when the other faces a problem in a
-task. The \textit{Theory of Mind} mechanism is the mechanism that infers a model
-of the other's anticipated mental state. The self progressively updates this
-model during the collaboration.
+the neighbors (other vehicles). For instance, every sensory data, every
+threshold value, or every inferred information about the world has a
+corresponding belief in the Mental States. The \textit{Collaboration} mechanism
+maintains constraints on actions, including task states and the ordering of
+tasks. Although maintaining safety and comfort is a goal for each individual
+vehicle, all vehicles also have a shared goal to achieve which is sharing the
+road with others -- at least partially -- to get to their destinations.
+Therefore, vehicles require a mechanism to maintain their full or partial shared
+plan. The \textit{Collaboration} mechanism also provides processes to update and
+monitor the shared plan. The \textit{Appraisal} mechanism is responsible for
+evaluating changes in the ego's Mental States, the anticipated Mental States of
+the neighbors, and the state of the collaboration environment. The outcome of
+appraisal impacts every vehicle as an evaluative, regulatory, or motivative
+process. For instance, \textit{expectedness} of an event indicates how prepared
+is the ego to cope with the event, or how to maintain current state with respect
+to the current changes in neighbors' location. The \textit{Coping} mechanism
+provides the ego with different coping strategies associated with changes in the
+ego's mental states with respect to the state of the collaboration. For
+instance, does ego need to change speed with respect to the current state of
+the road, or does it need to replan to get to the destination. The
+\textit{Motivation} mechanism operates whenever the ego a) requires a new
+motive to form a new intention with respect to current event, or b) wants to
+interpret a neighbor's motive whenever the neighbor's behavior triggers an
+alarm after ego appraising the situation. The \textit{Theory of Mind} mechanism
+is the mechanism that infers a model of the neighbor's anticipated mental state.
+The ego progressively updates this model during the collaboration. A neighbor's
+model impacts ego's decision with respect to the state of the neighbor.
 
 \section{Proposed Cognition Mechanism in Connected Vehicles}
 \label{sec:cogInCv}
