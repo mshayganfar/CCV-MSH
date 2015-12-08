@@ -34,7 +34,7 @@ In this paper,
 \end{abstract}
 
 \begin{keywords}
-cognition, connected vehicles ...
+cognition, connected vehicles \ldots
 \end{keywords}%
 
 \IEEEpeerreviewmaketitle
@@ -244,33 +244,88 @@ is the mechanism that infers a model of the neighbor's anticipated mental state.
 The ego progressively updates this model during the collaboration. A neighbor's
 model impacts ego's decision with respect to the state of the neighbor.
 
-\section{Proposed Cognition Mechanism in Connected Vehicles}
-\label{sec:cogInCv}
-%
+\section{Example Scenario}
+\label{sec:example-scenario}
 
-%
-%
-%
-%%%%%%%%%%%
-%
-%
-%
-%
-\section{Case Study}
-\label{sec:caseStudy}
-%
-%
-\section{Future Works}
-\label{sec:futureWorks}
-%
-%
-%
-%\begin{figure}[!h]
-%\centerline{\epsfig{figure =figs/PerrorSurface.eps, height=1.8 in}}
-%\caption{Probability of incorrect detection by changing SNR and detection threshold. For each SNR value, there is only one minimum point since the the function is convex.}\label{PerrorSurface} 
-%\end{figure}
-%
+In these hypothetical examples, we show how the involvement of different
+mechanisms in our framework can improve safety and comfort for both the ego
+vehicle and the other neighbor(s) in a road.
 
+In this example (see Figure \ref{fig:example1}), autonomous Vehicle
+\textit{A} travelling in the right lane wants to take Exit \textit{x} in two
+miles. However, Vehicle \textit{A} has decided to pass the slow-moving Truck
+\textit{D} before taking Exit \textit{x}, since it is late. At the same time,
+Vehicle \textit{B}, travelling in the left lane, quickly approaches a slower
+car, Vehicle \textit{C} in the same lane. The driver of Vehicle \textit{B}
+decides to change lanes to the middle lane to pass Vehicle \textit{C}.
+Therefore, both the autonomous Vehicle \textit{A} and the driver of Vehicle
+\textit{B} want to go to the middle lane at the same time; since the middle lane
+is not occupied by any other vehicle. Hence, because both Vehicle \textit{A} and
+Vehicle \textit{B} are not aware of each other's intention, they can cause an
+accident irrespective of the responsibility of each vehicle with respect to the
+traffic law.
+
+In this example, the ego vehicle perceives a sudden change of lane by Vehicle
+\textit{B}; then it appraises this event as \textit{relevant, undesirable,
+unexpected}, and \textit{controllable}. The lane change by Vehicle \textit{B} is
+relevant to \textit{A} since it decreases the utility of the current goal for
+the ego vehicle; it is undesirable since the ego vehicle's attempted goal (lane
+change) was not achieved; it is unexpected since the Vehicle \textit{B}
+interrupted the ego vehicle pursuing its current goal; and it is controllable
+since the ego vehicle has three alternative goals to pursue. The goal management
+process in our framework ranks all potential goals based on their status in the
+plan structure, and the outcome of the self and the reverse appraisal. Moreover,
+in this incident the ego vehicle does not have a behavior model of the Vehicle
+\textit{B}, since Vehicle \textit{B} has just reached to the ego vehicle and is
+perceived for the first time. Therefore, first the ego vehicle replaces the
+current goal with stay-in-the-lane goal for the prupose of recovering from the
+blocked goal. In general, the ego vehicle adopts one of the safe predefined
+goals, e.g., stay-in-the-lane or reduce the speed, as an alternative goal to
+which pursuing it raises unexpected and undesirable events. Next, the ego
+vehicle chooses the \textit{restraint coping strategy} to immediately pull back
+into the right lane to yield the the middle lane to Vehicle \textit{B} avoiding
+any possible accident. Therefore, choosing an appropriate coping strategy, the
+ego vehicle responds to the current goal change using the sensory system and
+taking appropriate actions to pursue the new stay-in-the-lane goal. The ego
+vehicle updates the Vehicle \textit{B}'s user model to a reckless driver.\\
+
+In this example (see Figure \ref{fig:example2}), autonomous Vehicle
+\textit{A} perceives Vehicle \textit{B} quickly approaching from behind in the
+middle lane (event 1). Vehicle \textit{B} changes its lane to the right lane
+(instead of left) to pass Vehicle \textit{A} immediately after reaching Vehicle
+\textit{A} (event 2). As shown in Figure \ref{fig:example2}, Vehicle \textit{B}
+has to switch back to the middle lane quickly (event 3), since there is a
+slow-moving truck in the right lane a short distance ahead of Vehicle
+\textit{A}. However, Vehicle \textit{D} makes another blockage for Vehicle
+\textit{B} in the middle lane. Consequently, Vehicle \textit{B} has to switch
+to the left lane to pass this blockage (event 4). All these four events happen
+in a few seconds in the neigborhood of vehicle \textit{A}.
+
+Vehicle \textit{A} appraises the first event as highly \textit{relevant,
+undesirable, unexpected} and \textit{controllable} for the self, and
+\textit{relevant, desirable} and \textit{expected} with low value of
+\textit{controllability} for the Vehicle \textit{B}. Therefore, Vehicle
+\textit{A}, creates a behavior model for Vehicle \textit{B} with a low
+probability of having a \textit{reckless} driver. The next three events will
+also be appraised in the same way and Vehicle \textit{A} updates Vehicle
+\textit{B}'s behavior model, resulting in an increased probability of
+Vehicle \textit{B} having a \textit{reckless} driver. Vehicle \textit{B}'s
+model not only helps Vehicle \textit{A} to be cautious while travelling in its
+neighborhood, but it can also inform other autonomous vehicles to drive
+carefully while Vehicle \textit{B} is a short distance from them.\\
+
+\subsection{Example 3}
+In this example, we show the event is \textit{relevant, undesirable, unexpected}
+but \textit{controllable}.\\
+
+\subsection{Traffic Jam Prevention}
+\label{sec:lane-change}
+
+\subsection{Lane Change}
+\label{sec:lane-change}
+
+\subsection{Exiting the Highway}
+\label{sec:exit-highway}
 
 \section{Conclusion}
 \label{Conc}
