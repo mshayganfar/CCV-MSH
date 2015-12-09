@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  8 DEC 2015 17:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  9 DEC 2015 10:06
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -592,29 +592,29 @@ Package pdftex.def Info: figs/theory-general-croped.pdf used on input line 210.
 LaTeX Warning: Reference `fig:example1' on page 3 undefined on input line 254.
 
 [3 <./figs/theory-general-croped.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 268--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--294
 
  []
 
 
-LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 292.
+LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 295.
 
 
-LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 296.
+LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 299.
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 304--316
+Underfull \hbox (badness 1565) in paragraph at lines 307--319
 \OT1/ptm/m/n/11 re-sult-ing in an in-creased prob-a-bil-ity of Ve-hi-cle \OT1/p
 tm/m/it/11 B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--316
+Underfull \hbox (badness 10000) in paragraph at lines 307--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
 
  []
 
@@ -640,7 +640,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (4 pages, 135904 bytes).
+Output written on CognitionInConnectedVehicles.pdf (4 pages, 135927 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
