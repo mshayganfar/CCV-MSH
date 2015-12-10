@@ -253,14 +253,14 @@ the highways was caused by typical lane change. Furthermore, according to the
 NHTSA's traffic safety facts of February 2015, about the 94\% of the critical
 reasons of pre-crashed events are attributed to the drivers. As mentioned in
 this report, about 41\% of the driver-related critical reasons are because of
-the drivers' recognition error including driver’s inattention, internal and
-external distractions, and inadequate surveillance. Also, about 33\% of
-pre-crash reasons are caused by the driver's decision errors such as driving too
-fast for conditions, too fast for the curve, false assumption of others’
-actions, illegal maneuver and misjudgment of gap or others’ speed. In our
-hypothetical example, we show how the involvement of different mechanisms in our
-framework can improve safety and comfort for both the ego vehicle and the other
-neighbor(s) in the roads for such conditions.
+the \textit{\textbf{drivers' recognition errors}} including driver’s
+inattention, internal and external distractions, and inadequate surveillance.
+Also, about 33\% of pre-crash reasons are caused by the \textit{\textbf{driver's
+decision errors}} such as driving too fast for conditions, too fast for the
+curve, false assumption of others’ actions, illegal maneuver and misjudgment of
+gap or others’ speed. In our hypothetical example, we show how the involvement
+of different mechanisms in our framework can improve safety and comfort for both
+the ego vehicle and the other neighbor(s) in the roads for such conditions.
 
 In this example (see Figure \ref{fig:example1}), autonomous Vehicle
 \textit{A} (ego vehicle) travelling in the right lane wants to take Exit
@@ -336,18 +336,30 @@ to be safe while travelling in its neighborhood, but it can also inform other
 autonomous vehicles to drive carefully while Vehicle \textit{B} is in a short
 distance from them.
 
-\subsection{Example 3}
-In this example, we show the event is \textit{relevant, undesirable, unexpected}
-but \textit{controllable}.
+In the last incident the ego vehicle (Vehcile \textit{A}) simply passes another
+autonomous car (Vehicle \textit{B}) driving in the right lane with a normal
+speed. Vehicle \textit{B} also detects the appearance of another autonomous
+vehicle in its own neighborhood. The ego vehicle receives an alert from Vehicle 
+\textit{B} regarding the car (Vehicle  \textit{C}) travelling a few hundred feet
+in front of them in the middle lane. The alert message contains a vectors of
+probabilities of the Vehicle \textit{C}'s driver type indicating the following
+probabilities: 34\% chance of being drowsy driver, 32\% of chance of driving
+under the influence of drugs or alcohol, 28\% chance of being distracted driver,
+and 6\% chance of being a teenage driver. These values are computed by the
+Vehicle \textit{B}'s Bayesian behavior modelling process in the the Theory of
+Mind mechanism, based on Vehicle \textit{B}'s perception and appraisal of the
+road including the Vehicle \textit{C}, even before the ego vehicle reaches to
+Vehicle \textit{B}. Afterwards, the ego vehicle uses the alert message to update
+it's own behavior model of the Vehicle \textit{C}. Updating Vehicle \textit{C}'s
+behavior model does not change the ego vehicle's current goal. It also does not
+demand the ego vehicle to apply an immediate reactive change in its own driving
+behavior. However, it replaces the current motive (i.e., maintain the current
+speed) of the ego vehicle with a new motive (i.e., maintain the current
+distance with Vehicle ego \textit{C}). Forming this new motive is based on the
+outcome of the Theory of Mind and the Appraisal mechanisms.
 
-\subsection{Traffic Jam Prevention}
-\label{sec:lane-change}
-
-\subsection{Lane Change}
-\label{sec:lane-change}
-
-\subsection{Exiting the Highway}
-\label{sec:exit-highway}
+In this example, we show the event is
+\textit{relevant, undesirable, unexpected} but \textit{controllable}.
 
 \section{Conclusion}
 \label{Conc}
