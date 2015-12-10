@@ -293,13 +293,13 @@ behavior model of the Vehicle \textit{B}, since Vehicle \textit{B} has just
 reached to the ego vehicle and is perceived for the first time. Therefore,
 first, the ego vehicle replaces the current goal with stay-in-the-lane goal for
 the prupose of recovering from the blocked goal. In general, the ego vehicle
-adopts one of the safe predefined goals, e.g., stay-in-the-lane or reduce-speed,
-as an alternative goal to which pursuing it raises unexpected and undesirable
-events. Next, the ego vehicle chooses the \textit{restraint coping strategy} to
-immediately pull back into the right lane to yield the the middle lane to
-Vehicle \textit{B} avoiding any possible accident. Therefore, choosing an
-appropriate coping strategy, the ego vehicle responds to the current goal change
-using the sensory system and taking appropriate actions to pursue the new
+adopts one of the safe predefined tactical goals, e.g., stay-in-the-lane or
+reduce-speed, as an alternative goal to which pursuing it raises unexpected and
+undesirable events. Next, the ego vehicle chooses the \textit{restraint coping
+strategy} to immediately pull back into the right lane to yield the the middle
+lane to Vehicle \textit{B} avoiding any possible accident. Therefore, choosing
+an appropriate coping strategy, the ego vehicle responds to the current goal
+change using the sensory system and taking appropriate actions to pursue the new
 stay-in-the-lane goal. The ego vehicle updates the Vehicle \textit{B}'s user
 model to a reckless driver.
 
@@ -309,7 +309,7 @@ Vehicle \textit{B} changes its lane to the right lane (instead of left) to pass
 the ego vehicle immediately after reaching the ego vehicle (event 2). As
 shown in Figure \ref{fig:example2}, Vehicle \textit{B} has to switch back to the
 middle lane quickly (event 3), since there is a slow-moving truck in the right
-lane, a short distance ahead of the ego vehicle. However, Vehicle \textit{D}
+lane at a short distance ahead of the ego vehicle. However, Vehicle \textit{D}
 makes another blockage for Vehicle \textit{B} in the middle lane. Consequently,
 Vehicle \textit{B} has to switch to the left lane to pass this blockage (event
 4). All these four events happen in a few seconds in the neigborhood of the ego
@@ -318,19 +318,27 @@ vehicle.
 Similar to the first incident, the ego vehicle appraises the first event as
 highly \textit{relevant, undesirable, unexpected} and \textit{controllable} for
 the self, and \textit{relevant, desirable} and \textit{expected} with low value
-of \textit{controllability} for the Vehicle \textit{B}. Therefore, Vehicle
-\textit{A}, creates a behavior model for Vehicle \textit{B} with a low
-probability of having a \textit{reckless} driver. The next three events will
-also be appraised in the same way and Vehicle \textit{A} updates Vehicle
-\textit{B}'s behavior model, resulting in an increased probability of Vehicle
-\textit{B} having a \textit{reckless} driver. Vehicle \textit{B}'s model not
-only helps Vehicle \textit{A} to be cautious while travelling in its
-neighborhood, but it can also inform other autonomous vehicles to drive
-carefully while Vehicle \textit{B} is a short distance from them.\\
+of \textit{controllability} for Vehicle \textit{B}. Therefore, the ego Vehicle,
+creates a behavior model for Vehicle \textit{B} with a probability of having
+a \textit{speeding} driver. The next three events will be also appraised in the
+same way. The ego vehicle updates Vehicle \textit{B}'s behavior model based on
+each event, raising the probability of Vehicle \textit{B} having a
+\textit{speeding} driver. Updating Vehicle \textit{B}'s behvior model based on
+several events leads to a more accurate behavior model of Vehicle \textit{B}.
+Consequently, the ego vehicle will be able to evaluate Vehicle \textit{B}'s
+actions more accurately based on the reverse appraisal process. The outcome of
+the self and reverse appraisal processes causes the goal management process to
+employ another tactical goal, i.e., reduce-speed. Hence, the ego vehicle as the
+outcome of the appraisal and the behavior modeling processess adopts
+\textit{behavioral disengagement} as the most appropriate coping strategy.
+Furthermore, Vehicle \textit{B}'s behavior model not only helps the ego vehicle
+to be safe while travelling in its neighborhood, but it can also inform other
+autonomous vehicles to drive carefully while Vehicle \textit{B} is in a short
+distance from them.
 
 \subsection{Example 3}
 In this example, we show the event is \textit{relevant, undesirable, unexpected}
-but \textit{controllable}.\\
+but \textit{controllable}.
 
 \subsection{Traffic Jam Prevention}
 \label{sec:lane-change}
