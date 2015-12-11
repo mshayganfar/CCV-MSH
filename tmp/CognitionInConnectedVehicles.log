@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  10 DEC 2015 16:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  11 DEC 2015 10:39
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -597,10 +597,10 @@ Missing character: There is no ™ in font ptmr7t!
 LaTeX Warning: Reference `fig:example1' on page 4 undefined on input line 265.
 
 
-LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 306.
+LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 307.
 
 
-LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 310.
+LaTeX Warning: Reference `fig:example2' on page 4 undefined on input line 311.
 
 [4] (./CognitionInConnectedVehicles.bbl) [5
 
@@ -613,7 +613,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  6267 strings out of 493304
  95030 string characters out of 6139871
- 182990 words of memory out of 5000000
+ 183990 words of memory out of 5000000
  9551 multiletter control sequences out of 15000+600000
  53103 words of font info for 119 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -624,7 +624,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (5 pages, 139638 bytes).
+Output written on CognitionInConnectedVehicles.pdf (5 pages, 140660 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
