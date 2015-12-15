@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: CognitionInConnectedVehicles.aux
 The style file: IEEEtran.bst
@@ -8,49 +8,98 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: mshayganfar.bib
+Database file #2: referencesVTM.bib
+Repeated entry---line 1 of file referencesVTM.bib
+ : @book{newell:unified-cognition
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8 of file referencesVTM.bib
+ : @book{bratman:intentions-plans
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15 of file referencesVTM.bib
+ : @incollection{grosz:plans-discourse
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 27 of file referencesVTM.bib
+ : @article{gratch:domain-independent
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 37 of file referencesVTM.bib
+ : @article{gratch:domain-independent
+ :                                   ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 49 of file referencesVTM.bib
+ : url = {http://www.33rdsquare.com/2015/01/forget-self-driving-cars-see-why.html}
+ :                                                                                .}
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 53 of file referencesVTM.bib
+ : url = {http://www.its.dot.gov/factsheets/pdf/PlanningFutureTransportation\_FactSheet.pdf}
+ :                                                                                          .}
+I'm skipping whatever remains of this entry
+Warning--string name "august" is undefined
+--line 59 of file referencesVTM.bib
+Unbalanced braces---line 70 of file referencesVTM.bib
+ : month={June},
+ :              }
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 74 of file referencesVTM.bib
+ : url = {http://www.ntsb.gov/news/press-releases/Pages/PR20150608b.aspx}
+ :                                                                       .}
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 91 of file referencesVTM.bib
+ :   year={2013}
+ :              .}
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 95 of file referencesVTM.bib
+ : url = {http://www.freep.com/story/money/cars/2015/09/04/intelligent-cars-robots-focus-toyota-research-plans/71702672/}
+ :                                                                                                                       .}
+I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in hardingNHTSA14
 
 Done.
-You've used 4 entries,
+You've used 9 entries,
             4024 wiz_defined-function locations,
-            832 strings with 7805 characters,
-and the built_in function-call counts, 2654 in all, are:
-= -- 199
-> -- 54
-< -- 19
-+ -- 29
+            852 strings with 8624 characters,
+and the built_in function-call counts, 4004 in all, are:
+= -- 287
+> -- 59
+< -- 20
++ -- 34
 - -- 9
-* -- 131
-:= -- 418
-add.period$ -- 9
-call.type$ -- 4
-change.case$ -- 4
+* -- 166
+:= -- 646
+add.period$ -- 15
+call.type$ -- 9
+change.case$ -- 9
 chr.to.int$ -- 45
-cite$ -- 4
-duplicate$ -- 184
-empty$ -- 241
+cite$ -- 10
+duplicate$ -- 315
+empty$ -- 396
 format.name$ -- 12
-if$ -- 597
+if$ -- 888
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 30
-newline$ -- 35
+int.to.str$ -- 9
+missing$ -- 62
+newline$ -- 58
 num.names$ -- 6
-pop$ -- 77
+pop$ -- 189
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 205
+skip$ -- 307
 stack$ -- 0
-substring$ -- 107
-swap$ -- 141
-text.length$ -- 4
+substring$ -- 108
+swap$ -- 203
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 4
-warning$ -- 0
+type$ -- 9
+warning$ -- 1
 while$ -- 12
-width$ -- 5
-write$ -- 57
+width$ -- 10
+write$ -- 97
+(There were 11 error messages)
