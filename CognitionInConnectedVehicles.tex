@@ -24,53 +24,131 @@
 \begin{document}
 \title{Connected Vehicles: Cognition Saves Lives}
 
-\author{Bengi Aygun$^\dag$, Mahni Shayganfar$^*$, and Alexander M. Wyglinski$^\dag$\\
-\normalsize $^\dag$Department of Electrical and Computer Engineering, Worcester Polytechnic Institute, Worcester, MA\\
-\normalsize $^*$Department of Computer Science, Worcester Polytechnic Institute, Worcester, MA\\
+\author{Bengi Aygun$^\dag$, Mahni Shayganfar$^*$, and Alexander M.
+Wyglinski$^\dag$\\
+\normalsize $^\dag$Department of Electrical and Computer Engineering, Worcester
+Polytechnic Institute, Worcester, MA\\
+\normalsize $^*$Department of Computer Science, Worcester Polytechnic Institute,
+Worcester, MA\\
 \normalsize Email: \{baygun, alexw\}@wpi.edu, mshayganfar@wpi.edu}
 
 \maketitle
 
 \begin{abstract}
-Intelligent transportation systems (ITS) will form an integral part of society's
-transportation infrastructure within few years.
+The idea of autonomous cars and connected vehicles is becoming more and more
+pervasive in research labs and car manufacturing companies. It is inevitable
+that the roads are going to accommodate autonomous and semi-autonomous vehicles
+in a near future. However, like other technologies infiltrating into humans
+daily life, the transition from conventional transportation systems to
+autonomous vehicles requires careful involvement of human-oriented factors into
+related technologies. We believe employing cognition in vehicular decision
+making processes, improves the awareness and consequently safety and comfort in
+the roads. Here, we discuss how affect-driven integration of cognition into
+connected vehicles can do so.
 \end{abstract}
 
 \begin{keywords}
-cognition, connected vehicles \ldots
+Cognition, Awareness, Connected Vehicles.
 \end{keywords}%
 
 \IEEEpeerreviewmaketitle
 
 \section{Become Connected, Become Aware}
 
-In 1999, the United States Federal Communication Commission (FCC) reserved $75$~MHz spectrum consisting 6 channels in the $5.9$~GHz band for dedicated short-range communications (DSRC), which is used for connected vehicle communications. In February~2014, the National Highway Traffic Safety Administration (NHTSA) announced that Intelligent Transportation Systems (ITS), including connected vehicle technology, will be required in all cars by 2019~\cite{factsheet}. Subsequently, there has been a significant increase in research activities with respect to on vehicular networks (VANETs) as a result of this urgent need to address vehicular traffic safety concerns~\cite{ntsb}. The information flow within a connected vehicle network, which includes both vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I), is managed via the broadcasting of control messages over a control channel. In Europe, these messages are referred to Cooperative Awareness Messages (CAMs) while in the United States they are called Basic Safety Messages (BSMs). Shared information, such as vehicle position, motion characteristics, and vehicle size, are used for increasing the overall environmental awareness in support of \textit{safety applications,} (\textit{e.g.,} intersection movement assist, left turn assist, do not pass warning sign, and light violation warning) as well as \textit{mobility applications,} (\textit{e.g.,} collision warning, road coefficient of friction, road conditions, parking management, and payment solutions)~\cite{hardingNHTSA14}.
+In 1999, the United States Federal Communication Commission (FCC) reserved
+$75$~MHz spectrum consisting 6 channels in the $5.9$~GHz band for dedicated
+short-range communications (DSRC), which is used for connected vehicle
+communications. In February~2014, the National Highway Traffic Safety
+Administration (NHTSA) announced that Intelligent Transportation Systems (ITS),
+including connected vehicle technology, will be required in all cars by
+2019~\cite{factsheet}. Subsequently, there has been a significant increase in
+research activities with respect to on vehicular networks (VANETs) as a result
+of this urgent need to address vehicular traffic safety concerns~\cite{ntsb}.
+The information flow within a connected vehicle network, which includes both
+vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I), is managed via the
+broadcasting of control messages over a control channel. In Europe, these
+messages are referred to Cooperative Awareness Messages (CAMs) while in the
+United States they are called Basic Safety Messages (BSMs). Shared information,
+such as vehicle position, motion characteristics, and vehicle size, are used for
+increasing the overall environmental awareness in support of \textit{safety
+applications,} (\textit{e.g.,} intersection movement assist, left turn assist,
+do not pass warning sign, and light violation warning) as well as
+\textit{mobility applications,} (\textit{e.g.,} collision warning, road
+coefficient of friction, road conditions, parking management, and payment
+solutions)~\cite{hardingNHTSA14}.
 
-Self and fully autonomous vehicles serve a purpose of traffic safety by preventing human-driven mistakes. One of the mainstream trials on autonomous vehicles are performed by Google and Ford Fusion while Volvo and Honda work on increase the awareness through providing robust device connectivity in vehicular environment. Connected vehicles stands as a breakthrough on intelligent transportation while bringing some technological challenges at the same time. In order to enable robust and efficient ITS mechanisms, several technical challenges associated with autonomous vehicles include the following:
+Self and fully autonomous vehicles serve a purpose of traffic safety by
+preventing human-driven mistakes. One of the mainstream trials on autonomous
+vehicles are performed by Google and Ford Fusion while Volvo and Honda work on
+increase the awareness through providing robust device connectivity in vehicular
+environment. Connected vehicles stands as a breakthrough on intelligent
+transportation while bringing some technological challenges at the same time. In
+order to enable robust and efficient ITS mechanisms, several technical
+challenges associated with autonomous vehicles include the following:
 
 \begin{itemize}
-\item Human-driven mistakes confront autonomous systems with unexpected situations that makes predefined decision mechanisms insufficient
-\item Dynamic vehicular environment includes highly time-varying obstacles, number of vehicles, and road topology
+\item Human-driven mistakes confront autonomous systems with unexpected
+situations that makes predefined decision mechanisms insufficient
+\item Dynamic vehicular environment includes highly time-varying obstacles,
+number of vehicles, and road topology
 \item Decision making mechanisms on ITS are not delay-tolerant since the network
 environment changes rapidly
-\item Periodically broadcasting between connected vehicles causes information overhead on computer processing unit at each vehicle\\
+\item Periodically broadcasting between connected vehicles causes information
+overhead on computer processing unit at each vehicle\\
 \end{itemize}
 
-Some research groups are two sides of the same coin but taking this vital technology one step further by adding a promising functionality: \textit{Cognition}. Toyota Group currently announced that they investigate \$$50~M$ to design and produce artificial intelligence within vehicular networks ~\cite{toyota50M}. \textit{Cognition in vehicles assures  learn, drive, repair and socialize with a driver, occupants and other vehicles}~\cite{cogcar}. Moreover, the driver or passenger's thoughts and habits will be linked to decision processes. This feature
-provides a solution to the transition process from full human driven to half autonomous and half human driven, and finally to fully autonomous vehicle traffic on roads.
+Some research groups are two sides of the same coin but taking this vital
+technology one step further by adding a promising functionality:
+\textit{Cognition}. Toyota Group currently announced that they investigate
+\$$50~M$ to design and produce artificial intelligence within vehicular networks
+~\cite{toyota50M}. \textit{Cognition in vehicles assures learn, drive, repair
+and socialize with a driver, occupants and other vehicles}~\cite{cogcar}.
+Moreover, the driver or passenger's thoughts and habits will be linked to
+decision processes. This feature provides a solution to the transition process
+from full human driven to half autonomous and half human driven, and finally to
+fully autonomous vehicle traffic on roads.
 
-\section{Cognition Perspective in Connected Vehicles}
+We believe cognition in connected vehicles can:
+
+\begin{itemize}
+  \item reduce the amount of errors in the roads caused by drivers, since not
+  only autonomous cars drive based on more accurate perception, but also they
+  include the behavior model of their neighbors before making any decision,
+  \item reduce the amount of required communication since the autonomous cars
+  only require to transfer high level decisions based on their own sensory
+  information instead of an enormous amount of low level sensory data,
+  \item improve the quality of travelling in the roads in terms of safety and
+  comfort, since cognition increases awareness of each autonomous vehicle in the
+  road.
+\end{itemize} 
+
+\section{Cognition in Connected Vehicles}
 
 \subsection{Building Blocks of A Connected Vehicle}
 
-Hardware components shape the technical practicability and readiness of ITS solutions~\cite{hardingNHTSA14}. Proposed cognition paradigm uses only the
-existing components without requiring extra functionality. The intra-vehicle components are categorized in six main blocks as shown in
-Figure~\ref{fig:invehComp}. According to current vision, the internal vehicle components include two DSRC radios, whose standardization is still under
-development. One proposal is to dedicate one radio permanently to safety messages. An alternative one is to design a multi-channel hopping algorithm to adaptive use the radios. These radios provide the information sharing with the other ITS members to increase the awareness.
+Hardware components shape the technical practicability and readiness of ITS
+solutions~\cite{hardingNHTSA14}. Proposed cognition paradigm uses only the
+existing components without requiring extra functionality. The intra-vehicle
+components are categorized in six main blocks as shown in
+Figure~\ref{fig:invehComp}. According to current vision, the internal vehicle
+components include two DSRC radios, whose standardization is still under
+development. One proposal is to dedicate one radio permanently to safety
+messages. An alternative one is to design a multi-channel hopping algorithm to
+adaptive use the radios. These radios provide the information sharing with the
+other ITS members to increase the awareness.
 
-Another vital component for cognition in vehicles is Global Positioning System (GPS) receiver for gathering position and timekeeping information. A computer
-processing unit use this information with the data generated from onboard sensors such as heading, speed, acceleration to provide the information to intra- and inter- vehicles intelligence systems. Safety application electronic control unit prepares BSMs to periodically broadcast in order to run the safety applications. Memory unit satisfies the need of data
-acquisition system; as well record the historical data on the cognition of its own and other vehicles. Memory capability also provides a solution to store security certificates. Lastly, a driver-vehicle interface would be essential for issuing warnings to the driver. Such warnings could be audible, visual, or haptic, \textit{e.g.,} tightening of the seat belt, vibrating the driver's seat.
+Another vital component for cognition in vehicles is Global Positioning System
+(GPS) receiver for gathering position and timekeeping information. A computer
+processing unit use this information with the data generated from onboard
+sensors such as heading, speed, acceleration to provide the information to
+intra- and inter- vehicles intelligence systems. Safety application electronic
+control unit prepares BSMs to periodically broadcast in order to run the safety
+applications. Memory unit satisfies the need of data acquisition system; as well
+record the historical data on the cognition of its own and other vehicles.
+Memory capability also provides a solution to store security certificates.
+Lastly, a driver-vehicle interface would be essential for issuing warnings to
+the driver. Such warnings could be audible, visual, or haptic, \textit{e.g.,}
+tightening of the seat belt, vibrating the driver's seat.
 
 \begin{figure}[!t]
 \centerline{\epsfig{figure =figs/car.eps, height=2 in}}
@@ -300,9 +378,11 @@ of different mechanisms in our framework can improve safety and comfort for both
 the ego vehicle and the other neighbor(s) in the roads for such conditions.
 
 \begin{figure}[!t]
-\centerline{\epsfig{figure =figs/ex1.eps, height=1.45 in}}
-\vspace{-5pt}
-\caption{.}\label{fig:example1}
+  \centerline{\epsfig{figure =figs/ex1.eps, height=1.45 in}}
+  \vspace*{-2mm}
+  \caption{Being aware of other drivers' intention.}
+  \label{fig:example1}
+  \vspace*{-5mm}
 \end{figure}
 
 In this example (see Figure \ref{fig:example1}), autonomous Vehicle
@@ -347,11 +427,12 @@ autonomous vehicle prevented an accident which could happen because of the
 drivers' recognition error caused by their inadequate survillance in the
 highway.
 
-%
 \begin{figure}[!t]
-\centerline{\epsfig{figure =figs/ex2.eps, height=1.1 in}}
-\vspace{-5pt}
-\caption{I.}\label{fig:example2}
+  \centerline{\epsfig{figure =figs/ex2.eps, height=1.1 in}}
+  \vspace*{-2mm}
+  \caption{Coping with the driving behavior of a reckless driver.}
+  \label{fig:example2}
+  \vspace*{-5mm}
 \end{figure}
 
 In the next incident (see Figure \ref{fig:example2}), the ego vehicle perceives
@@ -387,39 +468,42 @@ to be safe while travelling in its neighborhood, but it can also inform other
 autonomous vehicles to drive carefully while Vehicle \textit{B} is in a short
 distance from them.
 
-\begin{figure}[!t]
-\centerline{\epsfig{figure =figs/ex3.eps, height=1.1 in}}
-\vspace{-5pt}
-\caption{I.}\label{fig:example3}
-\end{figure}
-%
 In the last incident the ego vehicle (Vehcile \textit{A}) simply passes another
 autonomous car (Vehicle \textit{B}) which is driving in the right lane with a
-normal speed (see Figure \ref{fig:example3}). Vehicle \textit{B} also detects the appearance of another
-autonomous vehicle in its own neighborhood. The ego vehicle receives an alert
-from Vehicle \textit{B} regarding the car (Vehicle \textit{C}) travelling a few
-hundred feet in front of them in the middle lane. The alert message contains a
-vector of probabilities of the Vehicle \textit{C}'s driver type indicating the
-following probabilities: 34\% chance of being \textit{drowsy driver}, 32\% of
-chance of driving \textit{under the influence of drugs or alcohol}, 28\% chance
-of being \textit{distracted driver}, and 6\% chance of being a \textit{teenage
-driver}. These values are computed by the Vehicle \textit{B}'s Bayesian behavior
-modelling process in the the Theory of Mind mechanism. Comoputing these
-probability values is based on Vehicle \textit{B}'s perception and appraisal of
-the road including the Vehicle \textit{C}, even before the ego vehicle reaches
-to Vehicle \textit{B}. Afterwards, the ego vehicle uses the content of the alert
-message to update it's own behavior model of the Vehicle \textit{C}. Updating
-Vehicle \textit{C}'s behavior model does not change the ego vehicle's current
-goal. It also does not demand the ego vehicle to apply an immediate reactive
-change in its own driving behavior. However, it replaces the current motive
-(i.e., maintain the current speed) of the ego vehicle with a new motive (i.e.,
-maintain the current distance with Vehicle \textit{C}). Forming this new motive
-is based on the outcome of the Theory of Mind (updated by another vehicle) and
-the Appraisal mechanisms. The new motive is urgent since it requires an
-immediate change in ego vehicle's driving behavior, and it is important since it
-is related to the current goal that the ego vehicle pursues. Therefore, the new
-motive causes the ego vehicle to adopt an \textit{active coping strategy} to
-circumvent the stressor (i.e., Vehicle \textit{C}) by maintaining its distance.
+normal speed (see Figure \ref{fig:example3}). Vehicle \textit{B} also detects
+the appearance of another autonomous vehicle in its own neighborhood. The ego
+vehicle receives an alert from Vehicle \textit{B} regarding the car (Vehicle
+\textit{C}) travelling a few hundred feet in front of them in the middle lane.
+The alert message contains a vector of probabilities of the Vehicle \textit{C}'s
+driver type indicating the following probabilities: 34\% chance of being
+\textit{drowsy driver}, 32\% of chance of driving \textit{under the influence of
+drugs or alcohol}, 28\% chance of being \textit{distracted driver}, and 6\%
+chance of being a \textit{teenage driver}. These values are computed by the
+Vehicle \textit{B}'s Bayesian behavior modelling process in the the Theory of
+Mind mechanism. Comoputing these probability values is based on Vehicle
+\textit{B}'s perception and appraisal of the road including the Vehicle
+\textit{C}, even before the ego vehicle reaches to Vehicle \textit{B}.
+Afterwards, the ego vehicle uses the content of the alert message to update it's
+own behavior model of the Vehicle \textit{C}. Updating Vehicle \textit{C}'s
+behavior model does not change the ego vehicle's current goal. It also does not
+demand the ego vehicle to apply an immediate reactive change in its own driving
+behavior. However, it replaces the current motive (i.e., maintain the current
+speed) of the ego vehicle with a new motive (i.e., maintain the current distance
+with Vehicle \textit{C}). Forming this new motive is based on the outcome of the
+Theory of Mind (updated by another vehicle) and the Appraisal mechanisms. The
+new motive is urgent since it requires an immediate change in ego vehicle's
+driving behavior, and it is important since it is related to the current goal
+that the ego vehicle pursues. Therefore, the new motive causes the ego vehicle
+to adopt an \textit{active coping strategy} to circumvent the stressor (i.e.,
+Vehicle \textit{C}) by maintaining its distance.
+
+\begin{figure}[!t]
+  \centerline{\epsfig{figure =figs/ex3.eps, height=1.1 in}}
+  \vspace*{-2mm}
+  \caption{Communicating the behavior model of careless driver.}
+  \label{fig:example3}
+  \vspace*{-5mm}
+\end{figure}
 
 \section{Conclusion}
 \label{Conc}
