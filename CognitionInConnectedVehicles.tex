@@ -3,7 +3,7 @@
 \usepackage{epsfig,rotating,setspace,latexsym,amsmath,epsf,amssymb,bm,amsbsy}
 \usepackage{cite,graphicx,color,subfigure,here}
 \usepackage{amsmath}
-\usepackage[normalem]{ulem} 
+\usepackage[normalem]{ulem}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \usepackage{epstopdf}
@@ -118,33 +118,33 @@ We believe cognition in connected vehicles can:
   road.
 \end{itemize} 
 
-\section{Cognition in Connected Vehicles}
+\section{Connected Vehicles and Driving Environments}
 
 \subsection{Building Blocks of A Connected Vehicle}
 
-Hardware components shape the technical practicability and readiness of ITS
-solutions~\cite{hardingNHTSA14}. Proposed cognition paradigm uses only the
-existing components without requiring extra functionality. The intra-vehicle
-components are categorized in six main blocks as shown in
-Figure~\ref{fig:invehComp}. According to current vision, the internal vehicle
-components include two DSRC radios, whose standardization is still under
-development. One proposal is to dedicate one radio permanently to safety
-messages. An alternative one is to design a multi-channel hopping algorithm to
-adaptive use the radios. These radios provide the information sharing with the
-other ITS members to increase the awareness.
+Hardware components shape the technical practicality and readiness of ITS
+solutions~\cite{hardingNHTSA14}. The proposed cognition framework uses existing
+components without requiring extra functionality. The intra-vehicle components
+are categorized in six main blocks as shown in Figure~\ref{fig:invehComp}. As
+shown, the internal vehicle components include two DSRC radios, which
+standardization is still under development. One proposal is to dedicate one
+radio permanently to safety messages. An alternative proposal is to design a
+multi-channel hopping algorithm to use the radios adaptively. These radios
+provide information sharing with other ITS members to increase awareness on the
+roads.
 
-Another vital component for cognition in vehicles is Global Positioning System
-(GPS) receiver for gathering position and timekeeping information. A computer
-processing unit use this information with the data generated from onboard
-sensors such as heading, speed, acceleration to provide the information to
-intra- and inter- vehicles intelligence systems. Safety application electronic
-control unit prepares BSMs to periodically broadcast in order to run the safety
-applications. Memory unit satisfies the need of data acquisition system; as well
-record the historical data on the cognition of its own and other vehicles.
-Memory capability also provides a solution to store security certificates.
-Lastly, a driver-vehicle interface would be essential for issuing warnings to
-the driver. Such warnings could be audible, visual, or haptic, \textit{e.g.,}
-tightening of the seat belt, vibrating the driver's seat.
+Another vital component for cognition in vehicles is the Global Positioning
+System (GPS) receiver for gathering position and timekeeping information. A
+computer processing unit uses this information with the data generated from
+onboard sensors such as heading, speed, and acceleration to provide the
+information to intra- and inter- vehicle intelligence systems. The safety
+electronic control unit prepares BSMs to periodically broadcast in order to run
+the safety applications. The memory unit satisfies the needs of the data
+acquisition system and records the historical data on the cognition of its
+own and other vehicles. The memory unit also stores security certificates.
+Lastly, a driver-vehicle interface would issue warnings to the driver. Such
+warnings could be audible, visual, or haptic, e.g., any type of audio-visual
+alarm, tightening of the seat belt, or vibrating the driver's seat.
 
 \begin{figure}[!t]
 \centerline{\epsfig{figure =figs/car.pdf, height=2 in}}
@@ -156,34 +156,33 @@ cognition~\cite{hardingNHTSA14}.}\label{fig:invehComp}
 
 \subsection{Roads as Social Environments}
 
-A social environment refers to an individual's physical surroundings, resources
-and social relationships. A social relationship includes the interaction between
-two or more individuals in the environment. A social relationship is the most
-dynamic part of a social environment. Hence, developing and maintaining positive
-social relationships is crucial for a social environment and is influenced by
-the individuals' quality of interaction. Roads are social environments in which
+A social environment contains one's social relationships including one's
+resources and physical surroundings. A social relationship is the most dynamic
+part of a social environment. Hence, developing and maintaining positive social
+relationships is crucial for a social environment and is influenced by the
+individuals' quality of interaction. Roads are social environments in which
 individual vehicles interact with each other through their ``nonverbal"
-behaviors obeying the same traffic law. However, there are many violations of
-the laws on the roads all over the world in daily basis which consequently leads
-to expensive and sorrowful failures. What causes these failures is mostly the
-failure of the drivers to effectively interpret their driving environment and
-make an appropriate decision with respect to their constraints such as lack of
-time, lack of perception, and plethora of cognitive load. Therefore, it is
-crucial to involve awareness in the vehicles to share the meaning of what they
-dynamically perceive rather than broadcasting the data coming from their sensory
-system. For example, any sensory information leading to an alert on a particular
-vehicle does not necessarily have the same meaning both for the occupants and
-the neighbors of that vehicle. The alert warns the occupants of the vehicle to
-be aware of an internal failure (e.g., malfunction in the transmission system),
-or an external adversary (e.g., an unexpected leaping of an animal into the
-road). The same alert has a different meaning for the close vehicle approaching
-from behind; no matter what caused the alert in the leading vehicle, the
-posterior vehicle should slow down effective immidiately. However, the same
-alert can be interpreted in a totally different way for a neighbor in front of
-the originally alerted vehicle. In fact, this vehicle can ignore the received
-alert and continue the safe drive. Ultimately, these type of improvements leads
-to a higher quality of vehicles' interaction which consequently increases the
-safety of the roads.
+behaviors, each obeying the same traffic laws. However, there are many
+violations of the laws on the roads all over the world on a daily basis which
+leads to expensive and all-too-often heart-breaking failures. These failures are
+mostly caused by the failure of drivers to effectively interpret their driving
+environment and make appropriate decisions with respect to their constraints
+such as lack of time, lack of perception, and a plethora of cognitive load.
+Therefore, it is crucial to involve awareness in the vehicles to share the
+\textit{meaning} of what they perceive rather than broadcasting data coming
+from their sensory system. For example, any sensory information leading to an
+alert on a particular vehicle does not necessarily have the same meaning for
+both the occupants and the neighbors of that vehicle. The alert warns the
+occupants of the vehicle to be aware of an internal failure (e.g., malfunction
+in the transmission system), or an external adversary (e.g., an animal
+unexpectedly leaping into the road). The same alert has a different meaning
+for the close vehicle approaching from behind; no matter what caused the alert
+in the leading vehicle, the posterior vehicle should slow down effective
+immidiately. However, the same alert can be interpreted in a totally different
+way for a neighbor in front of the originally alerted vehicle. In fact, this
+vehicle can ignore the received alert and continue the safe drive. Ultimately,
+these type of improvements leads to a higher quality of vehicles' interaction
+which consequently increases the safety of the roads.
 
 \subsection{Driving Needs Pareto Optimal Decisions}
 
@@ -464,6 +463,14 @@ to be safe while travelling in its neighborhood, but it can also inform other
 autonomous vehicles to drive carefully while Vehicle \textit{B} is in a short
 distance from them.
 
+\begin{figure}[!t]
+  \centerline{\epsfig{figure =figs/ex3.pdf, height=1.1 in}}
+  \vspace*{-2mm}
+  \caption{Communicating the behavior model of careless driver.}
+  \label{fig:example3}
+  \vspace*{-5mm}
+\end{figure}
+
 In the last incident the ego vehicle (Vehcile \textit{A}) simply passes another
 autonomous car (Vehicle \textit{B}) which is driving in the right lane with a
 normal speed (see Figure \ref{fig:example3}). Vehicle \textit{B} also detects
@@ -493,13 +500,15 @@ that the ego vehicle pursues. Therefore, the new motive causes the ego vehicle
 to adopt an \textit{active coping strategy} to circumvent the stressor (i.e.,
 Vehicle \textit{C}) by maintaining its distance.
 
-\begin{figure}[!t]
-  \centerline{\epsfig{figure =figs/ex3.pdf, height=1.1 in}}
-  \vspace*{-2mm}
-  \caption{Communicating the behavior model of careless driver.}
-  \label{fig:example3}
-  \vspace*{-5mm}
-\end{figure}
+The recent reports show that the traffic density and crash rate is highly
+correlated. In~\cite{trb12}, the relationship between traffic density, speed and
+crash rate is modeled based on the traffic reports in Denver, Colorado. In
+Figure~\ref{fig:errorPlot}, the crash rate is shown in blue line based on the
+data from this report without applying our proposed cognition framework in each
+vehicle. The proposed cognition framework can reduce the crash rate caused by
+human-driven mistakes~\cite[pg. 16]{hardingNHTSA14} upto $80\%$. The red line in
+this figure indicates a significant influence of using our proposed cognition
+framework reducing the crash rate on the same data.
 
 \begin{figure}[!t]
 \centerline{\epsfig{figure =figs/errorPlot.eps, height=1.5 in}}
@@ -507,23 +516,6 @@ Vehicle \textit{C}) by maintaining its distance.
 \caption{The impact of cognition on decreasing crash rate. Human-driven crashes
 decreased up to $80\%$ by using proposed cognition mechanism.}\label{fig:errorPlot}
 \end{figure}
-
-\begin{figure}[!t]
-\centerline{\epsfig{figure =figs/infoFlow.eps, height=1.5 in}}
-\vspace{-5pt}
-\caption{The proposed cognition mechanism decreases the amount of information
-flow as well as the probability of communication overhead without sacrificing
-the reliability.}\label{fig:infoFlow}
-\end{figure}
-
-{\color{red} The recent reports show that the traffic density and crash rate is
-highly correlated. In~\cite{trb12}, the relation of traffic density, speed and
-crash rate is modeled based on the traffic reports of Denver,  CO. In
-Figure~\ref{fig:errorPlot}, the report result on crash rate is shown in blue
-line without cognition. The proposed cognition method avoid $80\%$ of defined
-crash scenario caused by human-driven mistakes~\cite[pg. 16]{hardingNHTSA14}.
-The red line in the same figure shows that cognition significantly decreases the
-crash rate. }
 
 {\color{red} The proposed cognition mechanism decreases amount of information
 without sacrificing reliability and robustness. Assuming each vehicle has 5
@@ -536,6 +528,14 @@ evaluation mechanism by using information coming from 5 sensor and provides 1
 decision information for an incident instead of 5. Hence, the information
 packets for $n$ number of connected vehicles is $n*(n-1)$. As a result, the
 proposed cognition system provides a solution to messaging overhead.}
+
+\begin{figure}[!t]
+\centerline{\epsfig{figure =figs/infoFlow.eps, height=1.5 in}}
+\vspace{-5pt}
+\caption{The proposed cognition mechanism decreases the amount of information
+flow as well as the probability of communication overhead without sacrificing
+the reliability.}\label{fig:infoFlow}
+\end{figure}
 
 \section{Conclusion}
 \label{Conc}
