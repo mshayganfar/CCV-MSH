@@ -151,7 +151,7 @@ the driver. Such warnings could be audible, visual, or haptic, \textit{e.g.,}
 tightening of the seat belt, vibrating the driver's seat.
 
 \begin{figure}[!t]
-\centerline{\epsfig{figure =figs/car.eps, height=2 in}}
+\centerline{\epsfig{figure =figs/car.pdf, height=2 in}}
 \vspace{-5pt}
 \caption{Intra-vehicle components can be used for
 cognition~\cite{hardingNHTSA14}.}\label{fig:invehComp}
@@ -378,7 +378,7 @@ of different mechanisms in our framework can improve safety and comfort for both
 the ego vehicle and the other neighbor(s) in the roads for such conditions.
 
 \begin{figure}[!t]
-  \centerline{\epsfig{figure =figs/ex1.eps, height=1.45 in}}
+  \centerline{\epsfig{figure =figs/ex1.pdf, height=1.45 in}}
   \vspace*{-2mm}
   \caption{Being aware of other drivers' intention.}
   \label{fig:example1}
@@ -428,7 +428,7 @@ drivers' recognition error caused by their inadequate survillance in the
 highway.
 
 \begin{figure}[!t]
-  \centerline{\epsfig{figure =figs/ex2.eps, height=1.1 in}}
+  \centerline{\epsfig{figure =figs/ex2.pdf, height=1.1 in}}
   \vspace*{-2mm}
   \caption{Coping with the driving behavior of a reckless driver.}
   \label{fig:example2}
@@ -498,12 +498,48 @@ to adopt an \textit{active coping strategy} to circumvent the stressor (i.e.,
 Vehicle \textit{C}) by maintaining its distance.
 
 \begin{figure}[!t]
-  \centerline{\epsfig{figure =figs/ex3.eps, height=1.1 in}}
+  \centerline{\epsfig{figure =figs/ex3.pdf, height=1.1 in}}
   \vspace*{-2mm}
   \caption{Communicating the behavior model of careless driver.}
   \label{fig:example3}
   \vspace*{-5mm}
 \end{figure}
+
+\begin{figure}[!t]
+\centerline{\epsfig{figure =figs/errorPlot.eps, height=1.5 in}}
+\vspace{-5pt}
+\caption{The impact of cognition on decreasing crash rate. Human-driven crashes
+decreased up to $80\%$ by using proposed cognition mechanism.}\label{fig:errorPlot}
+\end{figure}
+
+\begin{figure}[!t]
+\centerline{\epsfig{figure =figs/infoFlow.eps, height=1.5 in}}
+\vspace{-5pt}
+\caption{The proposed cognition mechanism decreases the amount of information
+flow as well as the probability of communication overhead without sacrificing
+the reliability.}\label{fig:infoFlow}
+\end{figure}
+
+{\color{red} The recent reports show that the traffic density and crash rate is
+highly correlated. In~\cite{trb12}, the relation of traffic density, speed and
+crash rate is modeled based on the traffic reports of Denver,  CO. In
+Figure~\ref{fig:errorPlot}, the report result on crash rate is shown in blue
+line without cognition. The proposed cognition method avoid $80\%$ of defined
+crash scenario caused by human-driven mistakes~\cite[pg. 16]{hardingNHTSA14}.
+The red line in the same figure shows that cognition significantly decreases the
+crash rate. }
+
+{\color{red} The proposed cognition mechanism decreases amount of information
+without sacrificing reliability and robustness. Assuming each vehicle has 5
+sensors, Figure~\ref{fig:infoFlow} shows the number of sensory information flow
+in connected vehicles network. For $n$ number of connected vehicles, each
+vehicle sends 5 sensory information packets to $n - 1$ neighbor vehicles.
+Therefore, the total information flow in the experiment network is $5*n*(n-1)$
+without cognition. On the other hand, the proposed cognition system uses an
+evaluation mechanism by using information coming from 5 sensor and provides 1
+decision information for an incident instead of 5. Hence, the information
+packets for $n$ number of connected vehicles is $n*(n-1)$. As a result, the
+proposed cognition system provides a solution to messaging overhead.}
 
 \section{Conclusion}
 \label{Conc}

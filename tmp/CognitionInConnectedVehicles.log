@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  16 DEC 2015 12:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  21 DEC 2015 00:02
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -663,43 +663,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
 
 ]
-Package epstopdf Info: Source file: <figs/car.eps>
-(epstopdf)                    date: 2015-12-15 22:11:18
-(epstopdf)                    size: 1458693 bytes
-(epstopdf)             Output file: <figs/car-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-15 22:13:16
-(epstopdf)                    size: 249917 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/car-eps-converted-to.
-pdf figs/car.eps>
-(epstopdf)             \includegraphics on input line 154.
-Package epstopdf Info: Output file is already uptodate.
-
-<figs/car-eps-converted-to.pdf, id=69, 785.93625pt x 510.90875pt>
-File: figs/car-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figs/car-eps-converted-to.pdf>
-Package pdftex.def Info: figs/car-eps-converted-to.pdf used on input line 154.
-(pdftex.def)             Requested size: 222.3392pt x 144.54pt.
- [2 <./figs/car-eps-converted-to.pdf>]
+<figs/car.pdf, id=69, 730.22812pt x 478.28688pt>
+File: figs/car.pdf Graphic file (type pdf)
+ <use figs/car.pdf>
+Package pdftex.def Info: figs/car.pdf used on input line 154.
+(pdftex.def)             Requested size: 220.67462pt x 144.54pt.
+ [2 <./figs/car.pdf>]
 Underfull \hbox (badness 2865) in paragraph at lines 194--203
 [][]\OT1/ptm/m/n/11 Cognitive ar-chi-tec-tures are used to solve high-
  []
 
-<figs/pareto-croped.pdf, id=145, 306.14375pt x 284.06125pt>
+<figs/pareto-croped.pdf, id=87, 306.14375pt x 284.06125pt>
 File: figs/pareto-croped.pdf Graphic file (type pdf)
 
 <use figs/pareto-croped.pdf>
 Package pdftex.def Info: figs/pareto-croped.pdf used on input line 206.
 (pdftex.def)             Requested size: 180.60315pt x 167.573pt.
 
-<figs/peactidm-croped.pdf, id=151, 432.61626pt x 187.70125pt>
+<figs/peactidm-croped.pdf, id=93, 432.61626pt x 187.70125pt>
 File: figs/peactidm-croped.pdf Graphic file (type pdf)
 
 <use figs/peactidm-croped.pdf>
 Package pdftex.def Info: figs/peactidm-croped.pdf used on input line 267.
 (pdftex.def)             Requested size: 250.26031pt x 108.58038pt.
  [3 <./figs/pareto-croped.pdf>]
-<figs/theory-general-croped.pdf, id=183, 417.56pt x 286.06876pt>
+<figs/theory-general-croped.pdf, id=126, 417.56pt x 286.06876pt>
 File: figs/theory-general-croped.pdf Graphic file (type pdf)
 
 <use figs/theory-general-croped.pdf>
@@ -720,85 +708,85 @@ Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-Package epstopdf Info: Source file: <figs/ex1.eps>
-(epstopdf)                    date: 2015-12-15 22:11:18
-(epstopdf)                    size: 2162633 bytes
-(epstopdf)             Output file: <figs/ex1-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-15 22:13:17
-(epstopdf)                    size: 334764 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/ex1-eps-converted-to.
-pdf figs/ex1.eps>
-(epstopdf)             \includegraphics on input line 381.
-Package epstopdf Info: Output file is already uptodate.
- <figs/ex1-eps-converted-to.pdf, id=219, 698.61pt x 322.20375pt>
-File: figs/ex1-eps-converted-to.pdf Graphic file (type pdf)
+ <figs/ex1.pdf, id=163, 1145.27875pt x 542.025pt>
+File: figs/ex1.pdf Graphic file (type pdf)
+ <use figs/ex1.pdf>
+Package pdftex.def Info: figs/ex1.pdf used on input line 381.
+(pdftex.def)             Requested size: 221.41489pt x 104.79128pt.
 
-<use figs/ex1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/ex1-eps-converted-to.pdf used on input line 381.
-(pdftex.def)             Requested size: 227.21611pt x 104.79128pt.
-Package epstopdf Info: Source file: <figs/ex2.eps>
-(epstopdf)                    date: 2015-12-15 22:11:18
-(epstopdf)                    size: 2011785 bytes
-(epstopdf)             Output file: <figs/ex2-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-15 22:13:19
-(epstopdf)                    size: 425740 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/ex2-eps-converted-to.
-pdf figs/ex2.eps>
-(epstopdf)             \includegraphics on input line 431.
-Package epstopdf Info: Output file is already uptodate.
-
-<figs/ex2-eps-converted-to.pdf, id=221, 702.625pt x 238.8925pt>
-File: figs/ex2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figs/ex2-eps-converted-to.pdf>
-Package pdftex.def Info: figs/ex2-eps-converted-to.pdf used on input line 431.
-(pdftex.def)             Requested size: 233.8075pt x 79.49744pt.
- [5 <./figs/ex1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figs/ex3.eps>
-(epstopdf)                    date: 2015-12-15 22:11:18
-(epstopdf)                    size: 795140 bytes
-(epstopdf)             Output file: <figs/ex3-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-15 22:13:19
-(epstopdf)                    size: 194042 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/ex3-eps-converted-to.
-pdf figs/ex3.eps>
-(epstopdf)             \includegraphics on input line 501.
+<figs/ex2.pdf, id=165, 1374.13374pt x 465.74pt>
+File: figs/ex2.pdf Graphic file (type pdf)
+ <use figs/ex2.pdf>
+Package pdftex.def Info: figs/ex2.pdf used on input line 431.
+(pdftex.def)             Requested size: 234.54318pt x 79.49744pt.
+ [5 <./figs/ex1.pdf>] <figs/ex3.pdf, id=186, 1255.18938pt x 417.05812pt>
+File: figs/ex3.pdf Graphic file (type pdf)
+ <use figs/ex3.pdf>
+Package pdftex.def Info: figs/ex3.pdf used on input line 501.
+(pdftex.def)             Requested size: 239.25456pt x 79.49744pt.
+Package epstopdf Info: Source file: <figs/errorPlot.eps>
+(epstopdf)                    date: 2015-12-20 17:38:52
+(epstopdf)                    size: 13246 bytes
+(epstopdf)             Output file: <figs/errorPlot-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-20 17:45:10
+(epstopdf)                    size: 9739 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/errorPlot-eps-convert
+ed-to.pdf figs/errorPlot.eps>
+(epstopdf)             \includegraphics on input line 509.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/ex3-eps-converted-to.pdf, id=295, 698.61pt x 238.8925pt>
-File: figs/ex3-eps-converted-to.pdf Graphic file (type pdf)
+<figs/errorPlot-eps-converted-to.pdf, id=187, 1431.3475pt x 673.51625pt>
+File: figs/errorPlot-eps-converted-to.pdf Graphic file (type pdf)
 
-<use figs/ex3-eps-converted-to.pdf>
-Package pdftex.def Info: figs/ex3-eps-converted-to.pdf used on input line 501.
-(pdftex.def)             Requested size: 232.47145pt x 79.49744pt.
- (./CognitionInConnectedVehicles.bbl
+<use figs/errorPlot-eps-converted-to.pdf>
+Package pdftex.def Info: figs/errorPlot-eps-converted-to.pdf used on input line
+ 509.
+(pdftex.def)             Requested size: 230.37439pt x 108.405pt.
+Package epstopdf Info: Source file: <figs/infoFlow.eps>
+(epstopdf)                    date: 2015-12-20 22:01:54
+(epstopdf)                    size: 11829 bytes
+(epstopdf)             Output file: <figs/infoFlow-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-20 22:02:28
+(epstopdf)                    size: 8488 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/infoFlow-eps-converte
+d-to.pdf figs/infoFlow.eps>
+(epstopdf)             \includegraphics on input line 516.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/infoFlow-eps-converted-to.pdf, id=188, 1431.3475pt x 673.51625pt>
+File: figs/infoFlow-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/infoFlow-eps-converted-to.pdf>
+Package pdftex.def Info: figs/infoFlow-eps-converted-to.pdf used on input line 
+516.
+(pdftex.def)             Requested size: 230.37439pt x 108.405pt.
+ [6 <./figs/ex2.pdf> <./figs/ex3.pdf> <./figs/errorPlot-eps-converted-to.pdf>] 
+(./CognitionInConnectedVehicles.bbl
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
 
-[6 <./figs/ex2-eps-converted-to.pdf> <./figs/ex3-eps-converted-to.pdf>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
-
-[7
-
-] (./CognitionInConnectedVehicles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
+[7 <./figs/infoFlow-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
+ (./CognitionInConnectedVehicles.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
 Package rerunfilecheck Info: File `CognitionInConnectedVehicles.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 99ED50163F3C888512612D222F7BB83D;655.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 515.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 551.
  ) 
 Here is how much of TeX's memory you used:
- 9980 strings out of 493304
- 152943 string characters out of 6139871
- 263244 words of memory out of 5000000
- 13176 multiletter control sequences out of 15000+600000
+ 9998 strings out of 493304
+ 153131 string characters out of 6139870
+ 262657 words of memory out of 5000000
+ 13188 multiletter control sequences out of 15000+600000
  55720 words of font info for 132 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,6n,46p,344b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,6n,46p,344b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
@@ -809,10 +797,10 @@ sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (7 pages, 1379795 bytes).
+Output written on CognitionInConnectedVehicles.pdf (7 pages, 1936300 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 34 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
