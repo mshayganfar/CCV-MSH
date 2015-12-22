@@ -362,18 +362,19 @@ model impacts ego's decision with respect to the state of the neighbor.
 \label{sec:example-scenario}
 
 According to the analysis of the lane change by the US' National Highway Traffic
-Safety Administration (NHTSA) in 2003 more than 38\% of pre-crash movements in
-the highways was caused by typical lane change. Furthermore, according to the
-NHTSA's traffic safety facts of February 2015, about the 94\% of the critical
-reasons of pre-crashed events are attributed to the drivers. As mentioned in
-this report, about 41\% of the driver-related critical reasons are because of
-the \textit{\textbf{drivers' recognition errors}} including driver’s
-inattention, internal and external distractions, and inadequate surveillance.
-Also, about 33\% of pre-crash reasons are caused by the \textit{\textbf{driver's
-decision errors}} such as driving too fast for conditions, too fast for the
-curve, false assumption of others’ actions, illegal maneuver and misjudgment of
-gap or others’ speed. In our hypothetical example, we show how the involvement
-of different mechanisms in our framework can improve safety and comfort for both
+Safety Administration (NHTSA) in 2003 \cite{nhtsa:lane-change} more than
+38\% of pre-crash movements in the highways was caused by typical lane change.
+Furthermore, according to the NHTSA's traffic safety facts of February 2015
+\cite{nhtsa:crash-stats}, about the 94\% of the critical reasons of
+pre-crashed events are attributed to the drivers. As mentioned in this report,
+about 41\% of the driver-related critical reasons are because of the
+\textit{\textbf{drivers' recognition errors}} including driver’s inattention,
+internal and external distractions, and inadequate surveillance. Also, about
+33\% of pre-crash reasons are caused by the \textit{\textbf{driver's decision
+errors}} such as driving too fast for conditions, too fast for the curve, false
+assumption of others’ actions, illegal maneuver and misjudgment of gap or
+others’ speed. In our hypothetical example, we show how the involvement of
+different mechanisms in our framework can improve safety and comfort for both
 the ego vehicle and the other neighbor(s) in the roads for such conditions.
 
 \begin{figure}[!t]
@@ -508,8 +509,8 @@ Vehicle \textit{C}) by maintaining its distance.
   \centering
   \includegraphics[width=0.49\textwidth]{figs/errorPlot.pdf}
   \caption{{\fontsize{10}{10}\selectfont The impact of cognition on reducing the
-  rate of accidents caused by human error.}}
-  \label{fig:peactidm}
+  crash rate caused by human error.}}
+  \label{fig:errorPlot}
   \vspace*{-6mm}
 \end{figure}
 
@@ -519,31 +520,35 @@ Vehicle \textit{C}) by maintaining its distance.
   \vspace*{-4mm}
   \caption{{\fontsize{10}{10}\selectfont The impact of cognition on the required
   data transfer rate between connected vehicles.}}
-  \label{fig:peactidm}
+  \label{fig:infoFlow}
   \vspace*{-3mm}
 \end{figure}
 
 The recent reports show that the traffic density and crash rate is highly
-correlated. In~\cite{trb12}, the relationship between traffic density, speed and
-crash rate is modeled based on the traffic reports in Denver, Colorado. In
+correlated. In~\cite{trb12}, the relationships between traffic density, speed
+and crash rate are modeled based on the traffic reports in Denver, Colorado. In
 Figure~\ref{fig:errorPlot}, the crash rate is shown in blue line based on the
 data from this report without applying our proposed cognition framework in each
 vehicle. The proposed cognition framework can reduce the crash rate caused by
-human-driven mistakes~\cite[pg. 16]{hardingNHTSA14} upto $80\%$. The red line in
-this figure indicates a significant influence of using our proposed cognition
-framework reducing the crash rate on the same data.
+human errors upto $80\%$. The red line in this figure
+indicates a significant influence of using our proposed cognition framework
+reducing the crash rate based on the same data.
 
-{\color{red} The proposed cognition mechanism decreases amount of information
-without sacrificing reliability and robustness. Assuming each vehicle has 5
-sensors, Figure~\ref{fig:infoFlow} shows the number of sensory information flow
-in connected vehicles network. For $n$ number of connected vehicles, each
-vehicle sends 5 sensory information packets to $n - 1$ neighbor vehicles.
-Therefore, the total information flow in the experiment network is $5*n*(n-1)$
-without cognition. On the other hand, the proposed cognition system uses an
-evaluation mechanism by using information coming from 5 sensor and provides 1
-decision information for an incident instead of 5. Hence, the information
-packets for $n$ number of connected vehicles is $n*(n-1)$. As a result, the
-proposed cognition system provides a solution to messaging overhead.}
+%~\cite{hardingNHTSA14} 
+
+Furthermore, the proposed cognition framework decreases the amount of
+information flow due to communicating vehicles' decisions rather than their raw
+sensory informaiton. Assuming each vehicle has 5 sensors,
+Figure~\ref{fig:infoFlow} shows the change in amount of sensory information flow
+with respect to the size of connected vehicles' network. In general, for $n$
+number of connected vehicles, each vehicle sends 5 sensory information packets
+to $n - 1$ neighbor vehicles. Therefore, the total number of times that the
+vehicles of the given network exchange their sensory information is $5n(n-1)$.
+On the other hand, using the proposed cognition framework each vehicle only
+requires to communicate its decisions rather than its raw sensory information.
+Hence, the number of information packet exchange for a network of $n$ connected
+vehicles is $n(n-1)$. As a result, using the proposed cognition framework
+provides a solution to messaging overhead.
 
 \section{Conclusion}
 \label{Conc}

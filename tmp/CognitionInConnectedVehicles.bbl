@@ -76,6 +76,14 @@ J.~Gratch and S.~C. Marsella, ``A domain-independent framework for modeling
   emotion,'' \emph{Cognitive Systems Research}, vol.~5, no.~4, pp. 269--306,
   2004.
 
+\bibitem{nhtsa:lane-change}
+\vspace{0mm}{U.S. Department of Transporation, National Highway Traffic Safety
+  Administration (NHTSA)}, ``{Analysis of Lane Change Crashes},'' March 2003.
+
+\bibitem{nhtsa:crash-stats}
+{U.S. Department of Transporation, National Highway Traffic Safety
+  Administration (NHTSA)}, ``{Traffic Safety Facts},'' February 2015.
+
 \bibitem{trb12}
 ``Relationship between traffic density, speed and safety and 2 its implication
   on setting variable speed limits on freeways,'' {U.S.} National Research

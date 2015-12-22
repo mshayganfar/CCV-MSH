@@ -68,45 +68,45 @@ Warning--empty author in hardingNHTSA14
 Warning--empty author in trb12
 
 Done.
-You've used 11 entries,
+You've used 13 entries,
             4024 wiz_defined-function locations,
-            862 strings with 9077 characters,
-and the built_in function-call counts, 4836 in all, are:
-= -- 349
-> -- 73
+            872 strings with 9379 characters,
+and the built_in function-call counts, 5490 in all, are:
+= -- 395
+> -- 81
 < -- 21
-+ -- 41
-- -- 12
-* -- 203
-:= -- 784
-add.period$ -- 19
-call.type$ -- 11
-change.case$ -- 11
++ -- 45
+- -- 14
+* -- 221
+:= -- 896
+add.period$ -- 23
+call.type$ -- 13
+change.case$ -- 13
 chr.to.int$ -- 45
-cite$ -- 13
-duplicate$ -- 392
-empty$ -- 485
-format.name$ -- 16
-if$ -- 1074
+cite$ -- 15
+duplicate$ -- 454
+empty$ -- 559
+format.name$ -- 18
+if$ -- 1216
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 79
-newline$ -- 64
-num.names$ -- 7
-pop$ -- 231
+int.to.str$ -- 13
+missing$ -- 93
+newline$ -- 70
+num.names$ -- 9
+pop$ -- 271
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 372
+skip$ -- 424
 stack$ -- 0
-substring$ -- 110
-swap$ -- 247
+substring$ -- 112
+swap$ -- 283
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 11
+type$ -- 13
 warning$ -- 2
-while$ -- 13
-width$ -- 13
-write$ -- 113
+while$ -- 15
+width$ -- 15
+write$ -- 127
 (There were 12 error messages)
