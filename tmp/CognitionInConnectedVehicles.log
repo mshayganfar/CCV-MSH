@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  22 DEC 2015 11:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  22 DEC 2015 12:30
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -569,6 +569,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 LaTeX Warning: Label `fig:pareto' multiply defined.
 
+
+LaTeX Warning: Label `fig:peactidm' multiply defined.
+
+
+LaTeX Warning: Label `fig:peactidm' multiply defined.
+
 )
 \openout1 = `CognitionInConnectedVehicles.aux'.
 
@@ -700,7 +706,7 @@ Package pdftex.def Info: figs/peactidm-croped.pdf used on input line 265.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/peactidm-croped.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] <figs/theory-general-croped.pdf, id=136, 417.56pt x 286.06876pt>
+>] <figs/theory-general-croped.pdf, id=137, 417.56pt x 286.06876pt>
 File: figs/theory-general-croped.pdf Graphic file (type pdf)
 
 <use figs/theory-general-croped.pdf>
@@ -718,74 +724,65 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-<figs/ex1.pdf, id=157, 1145.27875pt x 542.025pt>
+<figs/ex1.pdf, id=158, 1145.27875pt x 542.025pt>
 File: figs/ex1.pdf Graphic file (type pdf)
  <use figs/ex1.pdf>
 Package pdftex.def Info: figs/ex1.pdf used on input line 380.
 (pdftex.def)             Requested size: 221.41489pt x 104.79128pt.
 
-<figs/ex2.pdf, id=159, 1374.13374pt x 465.74pt>
+<figs/ex2.pdf, id=160, 1374.13374pt x 465.74pt>
 File: figs/ex2.pdf Graphic file (type pdf)
  <use figs/ex2.pdf>
 Package pdftex.def Info: figs/ex2.pdf used on input line 430.
 (pdftex.def)             Requested size: 234.54318pt x 79.49744pt.
- [5 <./figs/ex1.pdf> <./figs/ex2.pdf>] <figs/ex3.pdf, id=189, 1255.18938pt x 41
+ [5 <./figs/ex1.pdf> <./figs/ex2.pdf>] <figs/ex3.pdf, id=190, 1255.18938pt x 41
 7.05812pt>
 File: figs/ex3.pdf Graphic file (type pdf)
 
 <use figs/ex3.pdf>
 Package pdftex.def Info: figs/ex3.pdf used on input line 471.
 (pdftex.def)             Requested size: 239.25456pt x 79.49744pt.
-Package epstopdf Info: Source file: <figs/errorPlot.eps>
-(epstopdf)                    date: 2015-12-21 10:42:15
-(epstopdf)                    size: 13246 bytes
-(epstopdf)             Output file: <figs/errorPlot-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-21 10:42:15
-(epstopdf)                    size: 9739 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/errorPlot-eps-convert
-ed-to.pdf figs/errorPlot.eps>
-(epstopdf)             \includegraphics on input line 508.
-Package epstopdf Info: Output file is already uptodate.
+ <figs/errorPlot.pdf, id=192, 1431.3475pt x 673.51625pt>
+File: figs/errorPlot.pdf Graphic file (type pdf)
 
-<figs/errorPlot-eps-converted-to.pdf, id=191, 1431.3475pt x 673.51625pt>
-File: figs/errorPlot-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/errorPlot.pdf>
+Package pdftex.def Info: figs/errorPlot.pdf used on input line 509.
+(pdftex.def)             Requested size: 252.84283pt x 118.96675pt.
 
-<use figs/errorPlot-eps-converted-to.pdf>
-Package pdftex.def Info: figs/errorPlot-eps-converted-to.pdf used on input line
- 508.
-(pdftex.def)             Requested size: 230.37439pt x 108.405pt.
-Package epstopdf Info: Source file: <figs/infoFlow.eps>
-(epstopdf)                    date: 2015-12-21 10:42:15
-(epstopdf)                    size: 11829 bytes
-(epstopdf)             Output file: <figs/infoFlow-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-21 10:42:15
-(epstopdf)                    size: 8488 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/infoFlow-eps-converte
-d-to.pdf figs/infoFlow.eps>
-(epstopdf)             \includegraphics on input line 515.
-Package epstopdf Info: Output file is already uptodate.
+Overfull \hbox (0.84283pt too wide) in paragraph at lines 509--511
+ [][][] 
+ []
 
-<figs/infoFlow-eps-converted-to.pdf, id=192, 1431.3475pt x 673.51625pt>
-File: figs/infoFlow-eps-converted-to.pdf Graphic file (type pdf)
+<figs/infoFlow.pdf, id=193, 1431.3475pt x 673.51625pt>
+File: figs/infoFlow.pdf Graphic file (type pdf)
+ <use figs/infoFlow.pdf>
+Package pdftex.def Info: figs/infoFlow.pdf used on input line 518.
+(pdftex.def)             Requested size: 258.0pt x 121.39212pt.
 
-<use figs/infoFlow-eps-converted-to.pdf>
-Package pdftex.def Info: figs/infoFlow-eps-converted-to.pdf used on input line 
-515.
-(pdftex.def)             Requested size: 230.37439pt x 108.405pt.
- [6 <./figs/ex3.pdf> <./figs/errorPlot-eps-converted-to.pdf> <./figs/infoFlow-e
-ps-converted-to.pdf>]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 518--521
+ [][][] 
+ []
+
+
+LaTeX Warning: Reference `fig:errorPlot' on page 6 undefined on input line 529.
+
+
+[6 <./figs/ex3.pdf> <./figs/errorPlot.pdf> <./figs/infoFlow.pdf>]
+
+LaTeX Warning: Reference `fig:infoFlow' on page 7 undefined on input line 538.
+
 (./CognitionInConnectedVehicles.bbl
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
  (./CognitionInConnectedVehicles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
 Package rerunfilecheck Info: File `CognitionInConnectedVehicles.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: AE4C9D7D2346BE63B3506644D0E9AA3D;667.
@@ -796,12 +793,12 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 551.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
  ) 
 Here is how much of TeX's memory you used:
- 9999 strings out of 493304
- 153167 string characters out of 6139871
- 262606 words of memory out of 5000000
+ 9998 strings out of 493304
+ 153027 string characters out of 6139871
+ 262352 words of memory out of 5000000
  13188 multiletter control sequences out of 15000+600000
  56827 words of font info for 133 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -816,10 +813,10 @@ sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (7 pages, 33667163 bytes).
+Output written on CognitionInConnectedVehicles.pdf (7 pages, 33666995 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
+ 285 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
  38 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
