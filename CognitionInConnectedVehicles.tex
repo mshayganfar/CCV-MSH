@@ -238,10 +238,10 @@ not take a game theoretic approach to make decision-making.
 
 \section{Cognition Systems}
 
-Integration of cogniton into connected vehicles needs us to understand the
+Integration of cognition into connected vehicles needs us to understand the
 building blocks of cognition, how they relate to each other, and what
 functional operations they provide. We choose Newell's general theory of
-cognitive control, PEACTIDM \cite{newell:unified-cognition}, to describle the
+cognitive control, PEACTIDM \cite{newell:unified-cognition}, to describe the
 underlying abstract processes of a cognitive system. PEACTIDM is a theory of
 cognitive control where cognition is decomposed into a set of eight abstract
 functional operations \cite{newell:unified-cognition} all of which are
@@ -253,7 +253,7 @@ vehicles receive data from both their own local sensory system (e.g., GPS) and
 their neighbor vehicles (e.g., an abrupt change in their velocities).
 \textit{Encode} is the transformation of the sensory data into features that the
 cognitive system can process. In the cognitive architectures using Bratman's BDI
-paradigm \cite{bratman:intentions-plans} each sensory data will be tranformed
+paradigm \cite{bratman:intentions-plans} each sensory data will be transformed
 into a new \textit{belief}. The cognitive architecture will be able to use these
 beliefs in different processes. For example, in connected vehicles there will be
 a belief about the current acceleration of the vehicle which corresponds to the
@@ -262,8 +262,8 @@ maintaining the focus of attention on an event. For instance, an alert raised
 because of a sudden speed reduction of multiple leading neighbor vehicles needs
 to be attended to immediately, while the same alert does not need the same level
 of attention if the leading vehicles are a few miles apart. \textit{Comprehend} is
-the act of trnasforming an event into a goal or task-spcific representation and
-inferring the curent status of the world. For instance, a vehicle receiving an
+the act of transforming an event into a goal or task-specific representation and
+inferring the current status of the world. For instance, a vehicle receiving an
 alert requiring an immediate reaction needs to identify the cause of the problem
 even if the alert was raised and received from another vehicle. Thus, the
 receiver of the alert can apply replanning if necessary.
@@ -334,7 +334,7 @@ the mental states.
   \label{fig:cpm}
 \end{figure}
 
-The \textit{Mental States} includes ego's (vehicle's) beliefs, intentions,
+The \textit{Mental States} includes ego vehicle's beliefs, intentions,
 motives, goals and emotion instances as well as the anticipated Mental States of
 the neighbors (other vehicles). For instance, every sensory data, every
 threshold value, or every piece of inferred information about the world has a
@@ -346,24 +346,24 @@ others -- at least partially -- to get to their destinations. Therefore,
 vehicles require the collaboration mechanism to maintain their full or partial
 shared plan. The \textit{Collaboration} mechanism also provides processes to
 update and monitor the shared plan. The \textit{Appraisal} mechanism is
-responsible for evaluating changes in the ego's Mental States, the anticipated
-Mental States of the neighbors, and the state of the collaboration environment.
-The outcome of appraisal impacts every vehicle as an evaluative, regulatory, or
-motivative process. For instance, the \textit{expectedness} of an event
-indicates how prepared the ego is to cope with the event, or how to maintain the
-current state with respect to the current changes in neighbors' location. The
-\textit{Coping} mechanism provides the ego with different coping strategies
-associated with changes in the ego's mental states with respect to the state of
-the collaboration. For instance, does ego need to change speed with respect to
-the current state of the road, or does it need to replan to get to the
-destination. The \textit{Motivation} mechanism operates whenever the ego a)
-requires a new motive to form a new intention with respect to the current event,
-or b) wants to interpret a neighbor's motive whenever the neighbor's behavior
-triggers an alarm after ego appraises the situation. The \textit{Theory of
-Mind} mechanism is the mechanism that infers a model of the neighbor's
-anticipated mental state. The ego progressively updates this model during the
-collaboration. A neighbor's model impacts ego's decision with respect to the
-state of the neighbor.
+responsible for evaluating changes in the ego vehicle's Mental States, the
+anticipated Mental States of the neighbors, and the state of the collaboration
+environment. The outcome of appraisal impacts every vehicle as an evaluative,
+regulatory, or motivative process. For instance, the \textit{expectedness} of an
+event indicates how prepared the ego vehicle is to cope with the event, or how
+to maintain the current state with respect to the current changes in neighbors'
+location. The \textit{Coping} mechanism provides the ego vehicle with different
+coping strategies associated with changes in the ego vehicle's mental states with
+respect to the state of the collaboration. For instance, does ego vehicle need
+to change speed with respect to the current state of the road, or does it need
+to replan to get to the destination. The \textit{Motivation} mechanism operates
+whenever the ego vehicle a) requires a new motive to form a new intention with
+respect to the current event, or b) wants to interpret a neighbor's motive
+whenever the neighbor's behavior triggers an alarm after ego vehicle appraises
+the situation. The \textit{Theory of Mind} mechanism is the mechanism that
+infers a model of the neighbor's anticipated mental state. The ego progressively
+updates this model during the collaboration. A neighbor's model impacts ego
+vehicle's decision with respect to the state of the neighbor.
 
 \section{Example Scenario}
 \label{sec:example-scenario}
@@ -424,7 +424,7 @@ reverse appraisal. Moreover, in this incident the ego vehicle does not have a
 behavior model of the Vehicle \textit{B}, since Vehicle \textit{B} has just
 reached the ego vehicle and is perceived for the first time. Therefore,
 first, the ego vehicle replaces the current goal with stay-in-the-lane goal for
-the prupose of recovering from the blocked goal. In general, the ego vehicle
+the purpose of recovering from the blocked goal. In general, the ego vehicle
 adopts one of the safe predefined tactical goals, e.g., stay-in-the-lane or
 reduce-speed, as an alternative goal to the original goal which would raise
 unexpected and undesirable events. Next, the ego vehicle chooses the
@@ -447,7 +447,7 @@ middle lane quickly (event 3), since there is a slow-moving truck in the right
 lane at a short distance ahead of the ego vehicle. However, Vehicle \textit{D}
 makes another blockage for Vehicle \textit{B} in the middle lane. Consequently,
 Vehicle \textit{B} has to switch to the left lane to pass this blockage (event
-4). All these four events happen in a few seconds in the neigborhood of the ego
+4). All these four events happen in a few seconds in the neighborhood of the ego
 vehicle.
 
 Similar to the first incident, the ego vehicle appraises the first event as
@@ -464,7 +464,7 @@ Consequently, the ego vehicle will able be to evaluate Vehicle \textit{B}'s
 actions more accurately based on the reverse appraisal process. The outcome of
 the self and reverse appraisal processes causes the goal management process to
 employ another tactical goal, i.e., reduce-speed. Hence, the ego vehicle as the
-outcome of the appraisal and the behavior modeling processess adopts
+outcome of the appraisal and the behavior modeling processes adopts
 \textit{behavioral disengagement} as the most appropriate coping strategy.
 Furthermore, Vehicle \textit{B}'s behavior model not only helps the ego vehicle
 to be safe while travelling in its neighborhood, but it can also inform other
@@ -483,7 +483,7 @@ driver type indicating the following probabilities: 34\% chance of being
 drugs or alcohol}, 28\% chance of being a \textit{distracted driver}, and 6\%
 chance of being a \textit{teenage driver}. These values are computed by 
 Vehicle \textit{B}'s Bayesian behavior modelling process in the the Theory of
-Mind mechanism. The comoputation of these probability values is based on Vehicle
+Mind mechanism. The computation of these probability values is based on Vehicle
 \textit{B}'s perception and appraisal of the road including Vehicle \textit{C},
 even before the ego vehicle reaches to Vehicle \textit{B}. Afterwards, the ego
 vehicle uses the content of alert message to update it's own behavior model
@@ -502,21 +502,12 @@ an \textit{active coping strategy} to circumvent the stressor (i.e., Vehicle
 
 \begin{figure}[!t]
   \centering
+  \vspace*{1mm}
   \includegraphics[width=0.49\textwidth]{figs/errorPlot.pdf}
   \caption{{\fontsize{10}{10}\selectfont The impact of cognition on reducing the
   crash rate caused by human error.}}
   \label{fig:errorPlot}
   \vspace*{-6mm}
-\end{figure}
-
-\begin{figure}[tbh]
-  \centering
-  \includegraphics[width=0.5\textwidth]{figs/infoFlow.pdf}
-  \vspace*{-4mm}
-  \caption{{\fontsize{10}{10}\selectfont The impact of cognition on the required
-  data transfer rate between connected vehicles.}}
-  \label{fig:infoFlow}
-  \vspace*{-3mm}
 \end{figure}
 
 Recent reports show that traffic density and crash rate is highly correlated.
@@ -529,7 +520,14 @@ by human errors upto $80\%$. The red line in this figure indicates a significant
 influence of using our proposed cognition framework, reducing the crash rate
 based on the same data.
 
-%~\cite{hardingNHTSA14} 
+\begin{figure}[tbh]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figs/infoFlow.pdf}
+  \caption{{\fontsize{10}{10}\selectfont The impact of cognition on the required
+  data transfer rate between connected vehicles.}}
+  \label{fig:infoFlow}
+  \vspace*{-6mm}
+\end{figure}
 
 Furthermore, the proposed cognition framework decreases the amount of
 information flow due to communicating vehicles' decisions rather than their raw
@@ -560,7 +558,7 @@ errors, and required amount of information exchange leading to the improvement
 of safety and comfort for the occupants of the connected vehicles and their
 neighbors. We will employ our proposed cognition framework in our autonomous
 vehicle testbed in our future works. We will benchmark the performance of our
-autonomous vehicle using our cognition framwork in different traffic scenarios.
+autonomous vehicle using our cognition framework in different traffic scenarios.
 
 \bibliographystyle{IEEEtran}
 \bibliography{mshayganfar,referencesVTM}
