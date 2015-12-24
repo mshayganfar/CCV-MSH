@@ -85,15 +85,6 @@ transportation, while introducing some technological challenges. In order to
 enable robust and efficient ITS mechanisms, several technical challenges
 associated with autonomous vehicles must be addressed, including:
 
-\begin{figure}[!t]
-  \centering
-  \includegraphics[width=0.48\textwidth]{figs/prototype.pdf}
-  \vspace*{-2mm}
-  \caption{{\fontsize{10}{10}\selectfont Our prototype autonomous vehicle.}}
-  \label{fig:pareto}
-  \vspace*{-6mm}
-\end{figure}
-
 \begin{itemize}
 \item Human-driver errors confront autonomous systems with unexpected
 situations that make predefined decision mechanisms insufficient,
@@ -143,12 +134,26 @@ multi-channel hopping algorithm to use the radios adaptively. These radios
 provide information sharing with other ITS members to increase awareness on the
 roads.
 
-\begin{figure}[t!]
-  \centering
-  \includegraphics[width=0.485\textwidth]{figs/car.pdf}
-  \caption{Intra-vehicle components can be used for
-  cognition~\cite{hardingNHTSA14}.}
-  \label{fig:invehComp}
+\begin{figure}[ht]
+  \subfigure[General Concept.]{
+  \includegraphics[width=0.48\textwidth]{figs/car.pdf}
+  \label{fig:invehComp}}
+  \quad
+  \subfigure[Prototype System.]{
+    \includegraphics[width=0.21\textwidth]{figs/front.pdf}
+    \label{fig:prototype}}
+  ~
+  \subfigure[Server \& Radio Units.]{
+  \includegraphics[width=0.23\textwidth]{figs/server.pdf}
+  \label{fig:server}}
+  ~
+  \subfigure[User Interface.]{
+  \includegraphics[width=0.47\textwidth]{figs/back.pdf}
+  \label{fig:ui}}
+  \vspace*{-4mm}
+  \label{fig:overall-prototype}
+  \caption{Prototype of our autonomous vehicle}
+  \vspace*{-6mm}
 \end{figure}
 
 Another vital component for cognition in vehicles is the Global Positioning
@@ -518,15 +523,15 @@ the data from this report without applying our proposed cognition framework in
 each vehicle. The proposed cognition framework can reduce the crash rate caused
 by human errors upto $80\%$. The red line in this figure indicates a significant
 influence of using our proposed cognition framework, reducing the crash rate
-based on the same data.
+based on the same data.\\
 
 \begin{figure}[tbh]
   \centering
+  \vspace*{-9mm}
   \includegraphics[width=0.5\textwidth]{figs/infoFlow.pdf}
   \caption{{\fontsize{10}{10}\selectfont The impact of cognition on the required
   data transfer rate between connected vehicles.}}
   \label{fig:infoFlow}
-  \vspace*{-6mm}
 \end{figure}
 
 Furthermore, the proposed cognition framework decreases the amount of
