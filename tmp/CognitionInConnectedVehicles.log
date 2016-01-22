@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  22 JAN 2016 00:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  22 JAN 2016 13:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -827,7 +827,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 595.
  ) 
 Here is how much of TeX's memory you used:
  10045 strings out of 493304
- 153893 string characters out of 6139870
+ 153893 string characters out of 6139871
  265218 words of memory out of 5000000
  13221 multiletter control sequences out of 15000+600000
  55720 words of font info for 132 fonts, out of 8000000 for 9000
@@ -843,7 +843,7 @@ sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (8 pages, 51662901 bytes).
+Output written on CognitionInConnectedVehicles.pdf (8 pages, 51662907 bytes).
 PDF statistics:
  347 PDF objects out of 1000 (max. 8388607)
  268 compressed objects within 3 object streams
