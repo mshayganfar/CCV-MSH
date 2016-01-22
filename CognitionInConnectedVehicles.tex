@@ -97,12 +97,17 @@ processing unit at each vehicle.
 \end{itemize}
 
 One promising feature that is under investigation in autonomous cars is
-cognition. Cognition enables vehicles to improve driving quality by improving
-safety of the vehicle's occupants and other vehicles~\cite{cogcar}. Moreover,
-the driver or passenger's thoughts and habits will be linked to decision
-processes. This feature provides a method to transition from fully human driven
-to half autonomous and half human driven, and finally to fully autonomous
-vehicles on roads.
+cognition. {\color{red} Cognition in vehicles is the functionality that
+integrates vehicle's sensory information into several underlying mechanisms
+enabling reasoning which subsequently improves safety and awareness in the
+vehicles. This level of awareness impacts the interaction between the vehicle
+and its occupants as well as the vehicle's control with respect to the
+status of other neighboring vehicles. As a result,} cognition enables vehicles
+to improve driving quality by improving safety of the vehicle's occupants and
+other vehicles~\cite{cogcar}. Moreover, the driver or passenger's thoughts and
+habits will be linked to decision processes. This feature provides a method to
+transition from fully human driven to half autonomous and half human driven, and
+finally to fully autonomous vehicles on roads.
 
 We believe cognition in connected vehicles can:
 
@@ -298,6 +303,13 @@ given intention. For example, in the case of a lane change, the blinker starts
 to blink and the wheels turn to the right respective to the amount of change at
 the steering wheel.
 
+{\color{red} In the next section, we introduce our cognitive theory in which our
+focus is on affect-driven goal-oriented processes involved in cognition.
+Although, there is not a one-to-one relationship between depicted functional
+operations in Figure \ref{fig:peactidm} and the mechanisms in Figure
+\ref{fig:cpm}, the mechanisms in Figure \ref{fig:cpm} conceptually provide
+functionalities of the abstract functions in Figure \ref{fig:peactidm}.}
+
 \section{{\fontsize{11.5}{9}\selectfont Affective Motivational Collaboration
 Theory}}
 \label{sec:amct}
@@ -425,18 +437,18 @@ change) is not achieved (i.e., it is blocked); it is unexpected since Vehicle
 controllable since the ego vehicle still has three alternative goals.
 The goal management process in our framework ranks all of the potential goals
 based on their status in the plan structure, and the outcome of the self and the
-reverse appraisal. Moreover, in this incident the ego vehicle does not have a
-behavior model of the Vehicle \textit{B}, since Vehicle \textit{B} has just
-reached the ego vehicle and is perceived for the first time. Therefore,
-first, the ego vehicle replaces the current goal with stay-in-the-lane goal for
-the purpose of recovering from the blocked goal. In general, the ego vehicle
-adopts one of the safe predefined tactical goals, e.g., stay-in-the-lane or
-reduce-speed, as an alternative goal to the original goal which would raise
-unexpected and undesirable events. Next, the ego vehicle chooses the
-\textit{restraint coping strategy} to immediately pull back into the right lane
-to yield the the middle lane to Vehicle \textit{B} avoiding any possible
-accident. Therefore, choosing an appropriate coping strategy, the ego vehicle
-responds to the current goal change using the sensory system and taking
+reverse appraisal \cite{shayganfar:goal-management}. Moreover, in this incident
+the ego vehicle does not have a behavior model of the Vehicle \textit{B}, since
+Vehicle \textit{B} has just reached the ego vehicle and is perceived for the
+first time. Therefore, first, the ego vehicle replaces the current goal with
+stay-in-the-lane goal for the purpose of recovering from the blocked goal. In
+general, the ego vehicle adopts one of the safe predefined tactical goals, e.g.,
+stay-in-the-lane or reduce-speed, as an alternative goal to the original goal
+which would raise unexpected and undesirable events. Next, the ego vehicle
+chooses the \textit{restraint coping strategy} to immediately pull back into the
+right lane to yield the the middle lane to Vehicle \textit{B} avoiding any
+possible accident. Therefore, choosing an appropriate coping strategy, the ego
+vehicle responds to the current goal change using the sensory system and taking
 appropriate actions to pursue the new stay-in-the-lane goal. The ego vehicle
 updates Vehicle \textit{B}'s user model to a reckless driver. As shown in this
 example, the cognition of the autonomous vehicle prevented an accident which
@@ -454,6 +466,16 @@ makes another blockage for Vehicle \textit{B} in the middle lane. Consequently,
 Vehicle \textit{B} has to switch to the left lane to pass this blockage (event
 4). All these four events happen in a few seconds in the neighborhood of the ego
 vehicle.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=\textwidth]{figs/CrashCriticalReasons.pdf}
+  \caption{{\fontsize{10}{10}\selectfont Comparison of critical reasons for
+  pre-crash events between conventional vehicles (red)
+  \cite{nhtsa:crash-causation} and vehicles with cognition (blue).}}
+  \label{fig:errorPlot}
+  \vspace*{-6mm}
+\end{figure*}
 
 Similar to the first incident, the ego vehicle appraises the first event as
 highly \textit{relevant, undesirable, unexpected} and \textit{controllable} for
@@ -505,7 +527,7 @@ ego vehicle pursues. Therefore, the new motive causes the ego vehicle to adopt
 an \textit{active coping strategy} to circumvent the stressor (i.e., Vehicle
 \textit{C}) by maintaining its distance.
 
-\begin{figure}[!t]
+\begin{figure}[tbh]
   \centering
   \vspace*{1mm}
   \includegraphics[width=0.49\textwidth]{figs/errorPlot.pdf}

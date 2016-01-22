@@ -62,9 +62,8 @@ M.~E. Bratman, \emph{Intention, Plans, and Practical Reason}.\hskip 1em plus
 
 \bibitem{shayganfar:theory-overview}
 M.~Shayganfar, C.~Rich, and C.~L. Sidner, ``An overview of affective
-  motivational collaboration theory,'' in \emph{Proceedings of the Symbiotic
-  Cognitive Systems Workshop at the 13th AAAI Conference on Artificial
-  Intelligence}, 2016.
+  motivational collaboration theory,'' in \emph{Proceedings of AAAI Workshop on
+  Symbiotic Cognitive Systems, Phoenix, Arizona}, 2016.
 
 \bibitem{grosz:plans-discourse}
 B.~J. Grosz and C.~L. Sidner, ``Plans for discourse,'' in \emph{Intentions in
@@ -78,11 +77,23 @@ J.~Gratch and S.~C. Marsella, ``A domain-independent framework for modeling
 
 \bibitem{nhtsa:lane-change}
 \vspace{0mm}{U.S. Department of Transporation, National Highway Traffic Safety
-  Administration (NHTSA)}, ``{Analysis of Lane Change Crashes},'' March 2003.
+  Administration (NHTSA)}, ``{Analysis of Lane Change Crashes (Report to
+  Congress)},'' July 2008.
 
 \bibitem{nhtsa:crash-stats}
 {U.S. Department of Transporation, National Highway Traffic Safety
   Administration (NHTSA)}, ``{Traffic Safety Facts},'' February 2015.
+
+\bibitem{shayganfar:goal-management}
+M.~Shayganfar, C.~Rich, and C.~L. Sidner, ``Impact of affective appraisal on
+  collaborative goal management: My robot shares my worries,'' in
+  \emph{Proceedings of 11th ACM-IEEE International Conference on Human-Robot
+  Interaction (LBR)}, 2016.
+
+\bibitem{nhtsa:crash-causation}
+\vspace{0mm}{U.S. Department of Transporation, National Highway Traffic Safety
+  Administration (NHTSA)}, ``{National Motor Vehicle Crash Causation Survey},''
+  March 2003.
 
 \bibitem{trb12}
 ``Relationship between traffic density, speed and safety and 2 its implication

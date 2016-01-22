@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  23 DEC 2015 23:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  21 JAN 2016 21:28
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -565,7 +565,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-(./CognitionInConnectedVehicles.aux)
+(./CognitionInConnectedVehicles.aux
+
+LaTeX Warning: Label `fig:errorPlot' multiply defined.
+
+)
 \openout1 = `CognitionInConnectedVehicles.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -649,6 +653,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -656,33 +663,33 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
 <figs/car.pdf, id=69, 730.26569pt x 478.31145pt>
 File: figs/car.pdf Graphic file (type pdf)
  <use figs/car.pdf>
-Package pdftex.def Info: figs/car.pdf used on input line 140.
+Package pdftex.def Info: figs/car.pdf used on input line 145.
 (pdftex.def)             Requested size: 247.6778pt x 162.22232pt.
 
 <figs/front.pdf, id=70, 1094.40865pt x 909.3975pt>
 File: figs/front.pdf Graphic file (type pdf)
  <use figs/front.pdf>
-Package pdftex.def Info: figs/front.pdf used on input line 144.
+Package pdftex.def Info: figs/front.pdf used on input line 149.
 (pdftex.def)             Requested size: 108.36346pt x 90.04312pt.
 
 <figs/server.pdf, id=71, 511.9125pt x 383.4325pt>
 File: figs/server.pdf Graphic file (type pdf)
  <use figs/server.pdf>
-Package pdftex.def Info: figs/server.pdf used on input line 148.
+Package pdftex.def Info: figs/server.pdf used on input line 153.
 (pdftex.def)             Requested size: 118.6778pt x 88.8897pt.
 
 <figs/back.pdf, id=72, 1376.50258pt x 633.08517pt>
 File: figs/back.pdf Graphic file (type pdf)
  <use figs/back.pdf>
-Package pdftex.def Info: figs/back.pdf used on input line 152.
+Package pdftex.def Info: figs/back.pdf used on input line 157.
 (pdftex.def)             Requested size: 242.52063pt x 111.53539pt.
 
-Overfull \hbox (3.37793pt too wide) in paragraph at lines 140--155
+Overfull \hbox (3.37793pt too wide) in paragraph at lines 145--160
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--155
+Underfull \hbox (badness 10000) in paragraph at lines 145--160
 [][]
  []
 
@@ -699,7 +706,7 @@ iple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/back.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 2865) in paragraph at lines 204--213
+Underfull \hbox (badness 2865) in paragraph at lines 209--218
 [][]\OT1/ptm/m/n/11 Cognitive ar-chi-tec-tures are used to solve high-
  []
 
@@ -707,21 +714,21 @@ Underfull \hbox (badness 2865) in paragraph at lines 204--213
 File: figs/pareto-croped.pdf Graphic file (type pdf)
 
 <use figs/pareto-croped.pdf>
-Package pdftex.def Info: figs/pareto-croped.pdf used on input line 216.
+Package pdftex.def Info: figs/pareto-croped.pdf used on input line 221.
 (pdftex.def)             Requested size: 180.60315pt x 167.573pt.
  [3 <./figs/pareto-croped.pdf>]
 <figs/peactidm-croped.pdf, id=147, 432.61626pt x 187.70125pt>
 File: figs/peactidm-croped.pdf Graphic file (type pdf)
 
 <use figs/peactidm-croped.pdf>
-Package pdftex.def Info: figs/peactidm-croped.pdf used on input line 278.
+Package pdftex.def Info: figs/peactidm-croped.pdf used on input line 283.
 (pdftex.def)             Requested size: 250.26031pt x 108.58038pt.
 
-<figs/theory-general-croped.pdf, id=152, 417.56pt x 286.06876pt>
+<figs/theory-general-croped.pdf, id=156, 417.56pt x 286.06876pt>
 File: figs/theory-general-croped.pdf Graphic file (type pdf)
 
 <use figs/theory-general-croped.pdf>
-Package pdftex.def Info: figs/theory-general-croped.pdf used on input line 335.
+Package pdftex.def Info: figs/theory-general-croped.pdf used on input line 347.
 
 (pdftex.def)             Requested size: 250.26031pt x 171.45488pt.
  [4 <./figs/peactidm-croped.pdf> <./figs/theory-general-croped.pdf
@@ -735,86 +742,104 @@ Missing character: There is no ™ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
- <figs/ex1.pdf, id=192, 1145.27875pt x 542.025pt>
+ <figs/ex1.pdf, id=196, 1145.27875pt x 542.025pt>
 File: figs/ex1.pdf Graphic file (type pdf)
  <use figs/ex1.pdf>
-Package pdftex.def Info: figs/ex1.pdf used on input line 395.
+Package pdftex.def Info: figs/ex1.pdf used on input line 407.
 (pdftex.def)             Requested size: 283.80157pt x 134.31494pt.
 
-<figs/ex2.pdf, id=193, 1374.13374pt x 465.74pt>
+<figs/ex2.pdf, id=197, 1374.13374pt x 465.74pt>
 File: figs/ex2.pdf Graphic file (type pdf)
  <use figs/ex2.pdf>
-Package pdftex.def Info: figs/ex2.pdf used on input line 397.
+Package pdftex.def Info: figs/ex2.pdf used on input line 409.
 (pdftex.def)             Requested size: 283.80157pt x 96.18797pt.
 
-<figs/ex3.pdf, id=194, 1255.18938pt x 417.05812pt>
+<figs/ex3.pdf, id=198, 1255.18938pt x 417.05812pt>
 File: figs/ex3.pdf Graphic file (type pdf)
  <use figs/ex3.pdf>
-Package pdftex.def Info: figs/ex3.pdf used on input line 399.
+Package pdftex.def Info: figs/ex3.pdf used on input line 411.
 (pdftex.def)             Requested size: 283.80157pt x 94.29858pt.
- [5]
+
+
+LaTeX Warning: Citation `shayganfar:goal-management' on page 5 undefined on inp
+ut line 440.
+
+[5] <figs/CrashCriticalReasons.pdf, id=209, 1272.755pt x 621.32124pt>
+File: figs/CrashCriticalReasons.pdf Graphic file (type pdf)
+
+<use figs/CrashCriticalReasons.pdf>
+Package pdftex.def Info: figs/CrashCriticalReasons.pdf used on input line 472.
+(pdftex.def)             Requested size: 516.0pt x 251.8897pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./figs/ex1.pdf> <./figs/ex2.pdf> <./figs/ex3.pdf>]
-<figs/errorPlot.pdf, id=243, 1431.3475pt x 673.51625pt>
+Underfull \vbox (badness 3601) has occurred while \output is active []
+
+
+<figs/errorPlot.pdf, id=250, 1431.3475pt x 673.51625pt>
 File: figs/errorPlot.pdf Graphic file (type pdf)
 
 <use figs/errorPlot.pdf>
-Package pdftex.def Info: figs/errorPlot.pdf used on input line 511.
+Package pdftex.def Info: figs/errorPlot.pdf used on input line 533.
 (pdftex.def)             Requested size: 252.84283pt x 118.96675pt.
 
-Overfull \hbox (0.84283pt too wide) in paragraph at lines 511--513
+Overfull \hbox (0.84283pt too wide) in paragraph at lines 533--535
  [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--527
+Underfull \hbox (badness 10000) in paragraph at lines 540--549
 
  []
 
-<figs/infoFlow.pdf, id=246, 1431.3475pt x 673.51625pt>
+[7 <./figs/CrashCriticalReasons.pdf> <./figs/errorPlot.pdf>]
+<figs/infoFlow.pdf, id=274, 1431.3475pt x 673.51625pt>
 File: figs/infoFlow.pdf Graphic file (type pdf)
  <use figs/infoFlow.pdf>
-Package pdftex.def Info: figs/infoFlow.pdf used on input line 531.
+Package pdftex.def Info: figs/infoFlow.pdf used on input line 553.
 (pdftex.def)             Requested size: 258.0pt x 121.39212pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 531--533
+Overfull \hbox (6.0pt too wide) in paragraph at lines 553--555
  [][][] 
  []
-
-
-Underfull \vbox (badness 4328) has occurred while \output is active []
-
 
 (./CognitionInConnectedVehicles.bbl
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 28.
- [7 <./figs/errorPlot.pdf> <./figs/infoFlow.pdf>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 571.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 571.
- [8
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 593.
+ [8 <./figs/infoFlow.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 593.
 
-] (./CognitionInConnectedVehicles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 571.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 571.
+(./CognitionInConnectedVehicles.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 593.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 593.
 Package rerunfilecheck Info: File `CognitionInConnectedVehicles.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 8D7D78F83BE1270CF7C3604B3E0FDEE3;688.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 571.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 593.
  ) 
 Here is how much of TeX's memory you used:
- 10035 strings out of 493304
- 153618 string characters out of 6139870
- 264086 words of memory out of 5000000
- 13215 multiletter control sequences out of 15000+600000
- 55720 words of font info for 132 fonts, out of 8000000 for 9000
+ 10046 strings out of 493304
+ 153899 string characters out of 6139870
+ 265169 words of memory out of 5000000
+ 13221 multiletter control sequences out of 15000+600000
+ 56827 words of font info for 133 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,7n,46p,344b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,46p,344b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
@@ -825,10 +850,10 @@ sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CognitionInConnectedVehicles.pdf (8 pages, 51529772 bytes).
+Output written on CognitionInConnectedVehicles.pdf (8 pages, 51663190 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 267 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
