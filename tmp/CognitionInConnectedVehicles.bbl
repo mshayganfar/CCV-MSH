@@ -23,32 +23,32 @@
 
 \bibitem{factsheet}
 \BIBentryALTinterwordspacing
-{Planning Future Transportation: Connected Vehicles and ITS}. [Online].
+Planning future transportation: Connected vehicles and its. [Online].
   Available:
   \url{http://www.its.dot.gov/factsheets/pdf/PlanningFutureTransportation\_FactSheet.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ntsb}
 \BIBentryALTinterwordspacing
-{{NTSB} Calls for Immediate Action}. [Online]. Available:
+{NTSB} calls for immediate action. [Online]. Available:
   \url{http://www.ntsb.gov/news/press-releases/Pages/PR20150608b.aspx}
 \BIBentrySTDinterwordspacing
 
 \bibitem{hardingNHTSA14}
 ``Vehicle-to-vehicle communications: Readiness of {V2V} technology for
   application,'' {U.S.} Department of Transportation National Highway Traffic
-  Safety Administration, Tech. Rep. DOT HS 812 014, 2014.
+  Safety Administration, Tech. Rep. DOT HS 812 014, August 2014.
 
 \bibitem{toyota50M}
 \BIBentryALTinterwordspacing
-{Toyota Invests $\$50M$ in Artificial Intelligence}. [Online]. Available:
+Toyota invests $\$50m$ in artificial intelligence. [Online]. Available:
   \url{http://www.freep.com/story/money/cars/2015/09/04/intelligent-cars-robots-focus-toyota-research-plans/71702672/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{cogcar}
 \BIBentryALTinterwordspacing
-{Forget Self-Driving Cars, See Why Cognitive Cars Could be the Future of the
-  Auto Industry}. [Online]. Available:
+Forget self-driving cars, see why cognitive cars could be the future of the
+  auto industry. [Online]. Available:
   \url{http://www.33rdsquare.com/2015/01/forget-self-driving-cars-see-why.html}
 \BIBentrySTDinterwordspacing
 
@@ -75,13 +75,19 @@ J.~Gratch and S.~C. Marsella, ``A domain-independent framework for modeling
   emotion,'' \emph{Cognitive Systems Research}, vol.~5, no.~4, pp. 269--306,
   2004.
 
+\bibitem{shayganfar:appraisal-short}
+M.~Shayganfar, C.~Rich, and C.~L. Sidner, ``An overview of appraisal in
+  human-robot collaboration,'' in \emph{Proceedings of International Conference
+  on Autonomous Agents and Multiagent Systems -- AAMAS (Extended Abstract)},
+  2016.
+
 \bibitem{nhtsa:lane-change}
-\vspace{0mm}{U.S. Department of Transporation, National Highway Traffic Safety
+{U.S. Department of Transporation, National Highway Traffic Safety
   Administration (NHTSA)}, ``{Analysis of Lane Change Crashes (Report to
   Congress)},'' July 2008.
 
 \bibitem{nhtsa:crash-stats}
-{U.S. Department of Transporation, National Highway Traffic Safety
+\vspace{0mm}{U.S. Department of Transporation, National Highway Traffic Safety
   Administration (NHTSA)}, ``{Traffic Safety Facts},'' February 2015.
 
 \bibitem{shayganfar:goal-management}
@@ -91,13 +97,19 @@ M.~Shayganfar, C.~Rich, and C.~L. Sidner, ``Impact of affective appraisal on
   Interaction (LBR)}, 2016.
 
 \bibitem{nhtsa:crash-causation}
-\vspace{0mm}{U.S. Department of Transporation, National Highway Traffic Safety
+{U.S. Department of Transporation, National Highway Traffic Safety
   Administration (NHTSA)}, ``{National Motor Vehicle Crash Causation Survey},''
   March 2003.
 
 \bibitem{trb12}
 ``Relationship between traffic density, speed and safety and 2 its implication
   on setting variable speed limits on freeways,'' {U.S.} National Research
-  Council Transportation Research Board, Tech. Rep. TRB 2012, 2012.
+  Council Transportation Research Board, Tech. Rep. TRB 2012, January 2012.
+
+\bibitem{sumo}
+\BIBentryALTinterwordspacing
+Sumo- simulation of urban mobility. [Online]. Available:
+  \url{http://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}
