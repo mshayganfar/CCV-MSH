@@ -15,6 +15,55 @@
 \usepackage[english]{babel}
 \usepackage{dsfont}
 \usepackage{hyperref}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{etoolbox}
+\usepackage[svgnames]{xcolor}
+\usepackage{tikz}
+\usepackage{framed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand*\quotesize{60}
+
+\newcommand*{\openquote}
+   {\tikz[remember picture,overlay,xshift=-4ex,yshift=-2.5ex]
+   \node (OQ) {\quotefont\fontsize{\quotesize}{\quotesize}\selectfont``};\kern0pt}
+   
+\newcommand*{\closequote}[1]
+  {\tikz[remember picture,overlay,xshift=4ex,yshift={#1}]
+   \node (CQ) {\quotefont\fontsize{\quotesize}{\quotesize}\selectfont''};}
+
+\colorlet{shadecolor}{Azure}
+
+\newcommand*\shadedauthorformat{\emph}
+
+\newcommand*\authoralign[1]{%
+  \if#1l
+    \def\authorfill{}\def\quotefill{\hfill}
+  \else
+    \if#1r
+      \def\authorfill{\hfill}\def\quotefill{}
+    \else
+      \if#1c
+        \gdef\authorfill{\hfill}\def\quotefill{\hfill}
+      \else\typeout{Invalid option}
+      \fi
+    \fi
+  \fi}
+
+\newenvironment{shadequote}[2][l]%
+{\authoralign{#1}
+\ifblank{#2}
+   {\def\shadequoteauthor{}\def\yshift{-2ex}\def\quotefill{\hfill}}
+   {\def\shadequoteauthor{\par\authorfill\shadedauthorformat{#2}}\def\yshift{2ex}}
+\begin{snugshade}\begin{quote}\openquote}
+{\shadequoteauthor\quotefill\closequote{\yshift}\end{quote}\end{snugshade}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \providecommand{\keywords}[1]{\textbf{\textit{Index terms---}} #1}
 
 \newcommand{\ba}{\begin{align}}
@@ -97,17 +146,23 @@ processing unit at each vehicle.
 \end{itemize}
 
 One promising feature that is under investigation in autonomous cars is
-cognition. {\color{red} Cognition in vehicles is the functionality that
-integrates vehicle's sensory information into several underlying mechanisms
-enabling reasoning which subsequently improves safety and awareness in the
-vehicles. This level of awareness impacts the interaction between the vehicle
-and its occupants as well as the vehicle's control with respect to the
-status of other neighboring vehicles. As a result,} cognition enables vehicles
-to improve driving quality by improving safety of the vehicle's occupants and
-other vehicles~\cite{cogcar}. Moreover, the driver or passenger's thoughts and
-habits will be linked to decision processes. This feature provides a method to
-transition from fully human driven to half autonomous and half human driven, and
-finally to fully autonomous vehicles on roads.
+cognition. 
+
+\begin{shadequote}[l]{}
+Cognition in vehicles is the functionality that integrates vehicle's sensory
+information into several underlying mechanisms enabling reasoning which
+subsequently improves safety and awareness in the vehicles. This level of
+awareness impacts the interaction between the vehicle and its occupants as well
+as the vehicle's control with respect to the status of other neighboring
+vehicles.
+\end{shadequote}
+
+Cognition enables vehicles to improve driving quality by improving safety of the
+vehicle's occupants and other vehicles~\cite{cogcar}. Moreover, the driver or
+passenger's thoughts and habits will be linked to decision processes. This
+feature provides a method to transition from fully human driven to half
+autonomous and half human driven, and finally to fully autonomous vehicles on
+roads.
 
 We believe cognition in connected vehicles can:
 
@@ -130,20 +185,15 @@ We believe cognition in connected vehicles can:
 
 Hardware components shape the technical practicality and readiness of ITS
 solutions~\cite{hardingNHTSA14}. Our proposed cognition framework uses existing
-components without requiring extra functionality. 
-
-{\color{red}The intra-vehicle components, which are categorized in three main
-blocks, and the autonomous vehicle testbed located in WPI Wireless Innovation
-Laboratory are shown in Figure~\ref{fig:overall-prototype}.}
-
-The intra-vehicle components
-are categorized in six main blocks as shown in Figure~\ref{fig:invehComp}. As
-shown, the internal vehicle components include two DSRC radios, which
-standardization is still under development. One proposal is to dedicate one
-radio permanently to safety messages. An alternative proposal is to design a
-multi-channel hopping algorithm to use the radios adaptively. These radios
-provide information sharing with other ITS members to increase awareness on the
-roads.
+components without requiring extra functionality. The intra-vehicle components,
+which are categorized in three main blocks, and the autonomous vehicle testbed
+located in WPI Wireless Innovation Laboratory are shown in
+Figure~\ref{fig:overall-prototype}. As shown, the internal vehicle components
+include two DSRC radios, which standardization is still under development. One
+proposal is to dedicate one radio permanently to safety messages. An alternative
+proposal is to design a multi-channel hopping algorithm to use the radios
+adaptively. These radios provide information sharing with other ITS members to
+increase awareness on the roads.
 
 \begin{figure}[ht]
   \subfigure[General Concept.]{
@@ -309,12 +359,12 @@ given intention. For example, in the case of a lane change, the blinker starts
 to blink and the wheels turn to the right respective to the amount of change at
 the steering wheel.
 
-{\color{red} In the next section, we introduce our cognitive theory in which our
-focus is on affect-driven goal-oriented processes involved in cognition.
-Although, there is not a one-to-one relationship between depicted functional
-operations in Figure \ref{fig:peactidm} and the mechanisms in Figure
-\ref{fig:cpm}, the mechanisms in Figure \ref{fig:cpm} conceptually provide
-functionalities of the abstract functions in Figure \ref{fig:peactidm}.}
+In the next section, we introduce our cognitive theory in which our focus is on
+affect-driven goal-oriented processes involved in cognition. Although, there is
+not a one-to-one relationship between depicted functional operations in Figure
+\ref{fig:peactidm} and the mechanisms in Figure \ref{fig:cpm}, the mechanisms in
+Figure \ref{fig:cpm} conceptually provide functionalities of the abstract
+functions in Figure \ref{fig:peactidm}. 
 
 \section{{\fontsize{11.5}{9}\selectfont Affective Motivational Collaboration
 Theory}}
