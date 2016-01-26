@@ -389,15 +389,6 @@ as the other's \textit{nonverbal behaviors} and \textit{primitive actions}, and
 \textit{internal} events, comprising changes in the self's mental states, such
 as belief formation and emotional changes.
 
-Affective Motivational Collaboration Theory explains how emotions regulate the
-underlying processes when these events occur during collaboration. This theory
-elucidates the role of motives as goal-driven affect-regulated constructs with
-which an agent can form new intentions to cope with internal and external
-events. Therefore, a new motive can become a new intention and the self can take
-a new action based on the new intention.  The focus of the underlying mechanisms
-is on the ones depicted as mental processes in Figure \ref{fig:cpm} along with
-the mental states.
-
 \begin{figure}[!t]
   \centering
   \includegraphics[width=0.485\textwidth]{figs/theory-general-croped.pdf}
@@ -406,6 +397,15 @@ the mental states.
   influences between mechanisms).}}
   \label{fig:cpm}
 \end{figure}
+
+Affective Motivational Collaboration Theory explains how emotions regulate the
+underlying processes when these events occur during collaboration. This theory
+elucidates the role of motives as goal-driven affect-regulated constructs with
+which an agent can form new intentions to cope with internal and external
+events. Therefore, a new motive can become a new intention and the self can take
+a new action based on the new intention.  The focus of the underlying mechanisms
+is on the ones depicted as mental processes in Figure \ref{fig:cpm} along with
+the mental states.
 
 The \textit{Mental States} includes ego vehicle's beliefs, intentions,
 motives, goals and emotion instances as well as the anticipated Mental States of
@@ -590,21 +590,20 @@ an \textit{active coping strategy} to circumvent the stressor (i.e., Vehicle
 
 Recent reports show that traffic density and crash rate is highly correlated.
 In~\cite{trb12}, the relationships between traffic density, speed and crash rate
-are modeled based on traffic reports from Denver, Colorado. 
-
-{\color{red}In Figure~\ref{fig:errorPlot}, the crash rate of Route I-70, Denver
-is shown in the blue line in Winter 2012 at weekends based on annual traffic
-report~\cite{trb12}. The crash rate is computed as the proportion of  the total
-number of located crashes to the vehicle miles traveled on the corresponding
-route. The crash types are defined in 37 categories in NHTSA Technical Report
-released in 2014. The proposed cognition framework can prevent 26 - 34 of  these
-crash scenarios by avoiding human-driven mistakes. While most of the crash
-scenarios are avoided, some scenarios may or may not be eliminated based on
-neighbor vehicle existence. Few crash scenarios caused by mechanical issues such
-as vehicle failure cannot be prevented by the proposed cognition system. These
-statistics summarized in Figure~\ref{fig:errorPlot} in red line indicates a
-significant influence of using our proposed cognition framework, reducing the
-crash rate based on the same data.}
+are modeled based on traffic reports from Denver, Colorado. In
+Figure~\ref{fig:errorPlot}, the crash rate of route I-70 in Denver shown in the
+blue bars is based on the data from the annual traffic report for the weekends
+during the winter 2012. The blue bars indicate these data without applying our
+proposed cognition framework in each vehicle. The crash rate is computed as the
+proportion of  the total number of located crashes to the vehicle miles traveled
+on the corresponding route. There are 37 categories of crash types according to
+the NHTSA's technical report released in 2014. The proposed cognition framework
+can reduce the crash rate caused by human errors upto $80\%$ in about 34 of
+these categories. There are some categories such as failure of the vehicles that
+are not influenced by applying the proposed cognition framework. The red bars in
+Figure~\ref{fig:errorPlot} indicate the significant influence of using our
+proposed cognition framework, reducing the crash rate based on the same data and
+in the categories influenced by our cognition framework.
 
 \begin{figure}[!t]
   \centering
@@ -619,47 +618,39 @@ crash rate based on the same data.}
   \begin{center}
   \subfigure[Urban Scenario.]{\label{fig:urbanVsTime}\includegraphics[width=0.45\textwidth]{figs/urbanVsTime.eps}} 
   \subfigure[Highway Scenario.]{\label{fig:highwayVsTime}\includegraphics[width=0.47\textwidth]{figs/highwayVsTime.eps}}
-  \caption{\fontsize{10}{10}\selectfont {\color {red} In case of an unexpected
-  incident, \textit{e.g.} accident, sudden brake, connection failure, the
-  percent of vehicles in the region effected by the incident is shown. Effected
-  vehicle is defined as the vehicle that needs to rashly take an action such as
-  changing lane or braking suddenly with respect to the incident. The traffic
-  scenarios are generated in Simulation of Urban MObility (SUMO)~\cite{sumo} on
-  the topology of Newcastle upon Tyne, UK. To have a fair comparison, both
-  regions have approximately 200 vehicles which are in a motion randomly in an
-  area of $1km^2$. The simulation is performed for $20~sec.$ in total and the
-  effected vehicles are computed every $200~ms$. The effected vehicles are
-  tested for different amount of vehicles that have the proposed cognition
-  framework. The vehicles that have cognition ability are not effected by the
-  unexpected incidents since they can be adapted to the current conditions fast
-  and reliably. Cognition framework can deal with sudden incidents more stably
-  in urban scenario than highway since high speed vehicles create more dynamic
-  environment conditions in highway scenario.}}
+  \caption{\fontsize{10}{10}\selectfont The percentage of vehicles in the region
+  influenced by an unexpected incident, \textit{e.g.} accident, sudden brake,
+  connection failure. Influenced vehicle is defined as the vehicle that needs to
+  rashly take a controlling action such as changing lane or braking suddenly
+  with respect to the incident. The traffic scenarios are generated in
+  Simulation of Urban Mobility (SUMO)~\cite{sumo} on the topology of Newcastle
+  upon Tyne, UK. To have a fair comparison, both regions have approximately 200
+  vehicles which are in a motion randomly in an area of 1 $km^2$. The
+  simulation is performed for $20~sec.$ in total and the influenced vehicles are
+  computed every $200~msec$. The influenced vehicles are tested for different
+  amount of vehicles using the proposed cognition framework. The vehicles using
+  the cognition framework are not majorly influenced by the unexpected incidents
+  since they can be adapted to the current conditions fast and reliably.
+  Cognition framework can deal with sudden incidents more stably in urban
+  scenario than highway since high speed vehicles create more dynamic
+  environment conditions in highway scenario.}
   \label{fig:effectedVeh}
   \vspace*{-6mm}
   \end{center}
 \end{figure*}
 
-In Figure~\ref{fig:errorPlot}, the crash rate shown in the blue line is based on
-the data from this report without applying our proposed cognition framework in
-each vehicle. The proposed cognition framework can reduce the crash rate caused
-by human errors upto $80\%$. The red line in this figure indicates a significant
-influence of using our proposed cognition framework, reducing the crash rate
-based on the same data.
-
 Furthermore, the proposed cognition framework decreases the amount of
 information flow due to communicating vehicles' decisions rather than their raw
 sensory information. Assuming each vehicle has 5 sensors,
 Figure~\ref{fig:infoFlow} shows the change in amount of sensory information flow
-{\color{red}needed to provide environment awareness} with respect to the size of
-the connected vehicles' network. In general, for $n$ number of connected
-vehicles, each vehicle sends 5 sensory information packets to $n - 1$ neighbor
-vehicles. Therefore, the total number of times that the vehicles of the given
-network exchange their sensory information is $5n(n-1)$. On the other hand,
-using the proposed cognition framework each vehicle only need to communicate its
-decisions rather than its raw sensory information. Hence, the number of
-information packets exchanged for a network of $n$ connected vehicles is
-$n(n-1)$. 
+needed to provide environment awareness with respect to the size of the
+connected vehicles' network. In general, for $n$ number of connected vehicles,
+each vehicle sends 5 sensory information packets to $n - 1$ neighbor vehicles.
+Therefore, the total number of times that the vehicles of the given network
+exchange their sensory information is $5n(n-1)$. On the other hand, using the
+proposed cognition framework each vehicle only need to communicate its decisions
+rather than its raw sensory information. Hence, the number of information
+packets exchanged for a network of $n$ connected vehicles is $n(n-1)$. 
 
 \begin{figure}[!t]
   \centering
@@ -667,41 +658,38 @@ $n(n-1)$.
   \caption{{\fontsize{10}{10}\selectfont The impact of cognition on the required
   data transfer rate between connected vehicles.}}
   \label{fig:infoFlow}
-   \vspace*{-8mm}
+   \vspace*{-5mm}
 \end{figure}
 
-{\color{red} As a result, same amount of information is shared by less amount of
-packet flow. Therefore, the proposed cognition framework solves the issue on the
-messaging overhead. In Figure~\ref{fig:effectedVeh}, the amount of effected
-vehicles in case of an unexpected incident are shown. Results show that the
-amount of vehicles which need to rashly take an action with respect to the
-incident is decreased by the proposed cognition framework. In
-Figure~\ref{fig:urban3d}, the effect of transmission parameters on the amount of
-effected vehicles in case of connection failure is shown.
+As a result, same amount of information is shared by less amount of packet flow.
+Therefore, the proposed cognition framework solves the issue on the messaging
+overhead. Figure~\ref{fig:effectedVeh} shows the amount of effected vehicles in
+case of an unexpected incident. Results show that the amount of vehicles
+which need to rashly take an action with respect to the incident is decreased by
+the proposed cognition framework. Figure~\ref{fig:urban3d} shows the effect of
+transmission parameters on the amount of effected vehicles in case of connection
+failure.
 
 The cognition framework based on AMCT provides the optimum point of Pareto
 optimality on safety and comfort. The environment awareness is increased while
 human-driven mistakes are minimized. The transition from half autonomous and
 half human driven traffic to fully autonomous roads is operated without any
 integration issue. Consequently, the aim of safety on vehicular traffic is
-solidly confirmed.}
-
-As a result, using the proposed cognition framework provides a
-solution to messaging overhead.
+solidly confirmed.
 
 \begin{figure}[tbh]
   \centering
   \includegraphics[width=0.5\textwidth]{figs/urban3d.png}
-  \caption{{\fontsize{10}{10}\selectfont {\color {red} In case of connection
-  failure with the ego vehicle and its neighbor vehicles, The percent of
-  effected vehicles in the experiment region is shown with the changes of
-  transmission power and distance. 75$\%$ of vehicles in chosen urban traffic
-  have the cognition framework. Since The ego vehicle can connect to further the
-  vehicles with the higher transmission power, number of neighbor vehicles also
-  increases. Similarly, higher transmission distance covers more neighbor
-  vehicles. Connection failure affects higher number of neighbor vehicles since
-  higher levels on both of these factor increase the number of connected
-  vehicles.}}}
+  \caption{{\fontsize{10}{10}\selectfont The percentage of influenced vehicles
+  in the experiment region is shown with the changes of the transmission power
+  and the distance; in case of the connection failure between the ego vehicle
+  and its neighbor vehicles. We assumed 75$\%$ of vehicles in the chosen urban
+  traffic use the proposed cognition framework. The ego vehicle can connect to
+  further vehicles with the higher transmission power which increases the number
+  of neighbor vehicles. Similarly, higher transmission distance covers more
+  neighbor vehicles. Connection failure affects higher number of neighbor
+  vehicles since higher levels on both of these factor increase the number of
+  connected vehicles.}}
   \label{fig:urban3d}
 \end{figure}
 
