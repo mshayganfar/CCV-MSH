@@ -598,7 +598,7 @@ proposed cognition framework in each vehicle. The crash rate is computed as the
 proportion of  the total number of located crashes to the vehicle miles traveled
 on the corresponding route. There are 37 categories of crash types according to
 the NHTSA's technical report released in 2014. The proposed cognition framework
-can reduce the crash rate caused by human errors upto $80\%$ in about 34 of
+can reduce the crash rate caused by human errors up to $80\%$ in about 34 of
 these categories. There are some categories such as failure of the vehicles that
 are not influenced by applying the proposed cognition framework. The red bars in
 Figure~\ref{fig:errorPlot} indicate the significant influence of using our
@@ -614,31 +614,6 @@ in the categories influenced by our cognition framework.
   \vspace*{-6mm}
 \end{figure}
 
-\begin{figure*}[!t]
-  \begin{center}
-  \subfigure[Urban Scenario.]{\label{fig:urbanVsTime}\includegraphics[width=0.45\textwidth]{figs/urbanVsTime.eps}} 
-  \subfigure[Highway Scenario.]{\label{fig:highwayVsTime}\includegraphics[width=0.47\textwidth]{figs/highwayVsTime.eps}}
-  \caption{\fontsize{10}{10}\selectfont The percentage of vehicles in the region
-  influenced by an unexpected incident, \textit{e.g.} accident, sudden brake,
-  connection failure. Influenced vehicle is defined as the vehicle that needs to
-  rashly take a controlling action such as changing lane or braking suddenly
-  with respect to the incident. The traffic scenarios are generated in
-  Simulation of Urban Mobility (SUMO)~\cite{sumo} on the topology of Newcastle
-  upon Tyne, UK. To have a fair comparison, both regions have approximately 200
-  vehicles which are in a motion randomly in an area of 1 $km^2$. The
-  simulation is performed for $20~sec.$ in total and the influenced vehicles are
-  computed every $200~msec$. The influenced vehicles are tested for different
-  amount of vehicles using the proposed cognition framework. The vehicles using
-  the cognition framework are not majorly influenced by the unexpected incidents
-  since they can be adapted to the current conditions fast and reliably.
-  Cognition framework can deal with sudden incidents more stably in urban
-  scenario than highway since high speed vehicles create more dynamic
-  environment conditions in highway scenario.}
-  \label{fig:effectedVeh}
-  \vspace*{-6mm}
-  \end{center}
-\end{figure*}
-
 Furthermore, the proposed cognition framework decreases the amount of
 information flow due to communicating vehicles' decisions rather than their raw
 sensory information. Assuming each vehicle has 5 sensors,
@@ -648,9 +623,10 @@ connected vehicles' network. In general, for $n$ number of connected vehicles,
 each vehicle sends 5 sensory information packets to $n - 1$ neighbor vehicles.
 Therefore, the total number of times that the vehicles of the given network
 exchange their sensory information is $5n(n-1)$. On the other hand, using the
-proposed cognition framework each vehicle only need to communicate its decisions
-rather than its raw sensory information. Hence, the number of information
-packets exchanged for a network of $n$ connected vehicles is $n(n-1)$. 
+proposed cognition framework each vehicle only needs to communicate its
+decisions rather than its raw sensory information. Hence, the number of
+information packets exchanged for a network of $n$ connected vehicles is
+$n(n-1)$.
 
 \begin{figure}[!t]
   \centering
@@ -661,35 +637,59 @@ packets exchanged for a network of $n$ connected vehicles is $n(n-1)$.
    \vspace*{-5mm}
 \end{figure}
 
-As a result, same amount of information is shared by less amount of packet flow.
-Therefore, the proposed cognition framework solves the issue on the messaging
-overhead. Figure~\ref{fig:effectedVeh} shows the amount of effected vehicles in
-case of an unexpected incident. Results show that the amount of vehicles
-which need to rashly take an action with respect to the incident is decreased by
-the proposed cognition framework. Figure~\ref{fig:urban3d} shows the effect of
-transmission parameters on the amount of effected vehicles in case of connection
-failure.
+\begin{figure*}[!t]
+  \begin{center}
+  \subfigure[Urban Scenario.]{\label{fig:urbanVsTime}\includegraphics[width=0.45\textwidth]{figs/urbanVsTime.eps}} 
+  \subfigure[Highway Scenario.]{\label{fig:highwayVsTime}\includegraphics[width=0.47\textwidth]{figs/highwayVsTime.eps}}
+  \caption{\fontsize{10}{10}\selectfont The percentage of vehicles in the region
+  influenced by an unexpected incident, \textit{e.g.} accident, sudden brake,
+  connection failure. An influenced vehicle is defined as a vehicle that needs
+  to immediately take a controlling action such as changing lane or braking
+  suddenly with respect to the incident. The traffic scenarios are generated in
+  Simulation of Urban MObility (SUMO)~\cite{sumo} on the topology of Newcastle
+  upon Tyne, UK. To have a fair comparison, both regions have approximately 200
+  vehicles which are in random motion in an area of 1 $km^2$. The simulation is
+  performed for $20~sec.$ in total and the influenced vehicles are computed
+  every $200~msec$. The influenced vehicles are tested for different proportions
+  of vehicles using the proposed cognition framework. The vehicles using the
+  cognition framework are not significantly influenced by the unexpected
+  incidents since they can adapt to their current conditions quickly and
+  reliably. Cognition framework can deal with sudden incidents more stably in
+  urban scenario than highway since high speed vehicles create more dynamic
+  environment conditions in highway scenarios.}
+  \label{fig:effectedVeh}
+  \vspace*{-6mm}
+  \end{center}
+\end{figure*}
 
-The cognition framework based on AMCT provides the optimum point of Pareto
-optimality on safety and comfort. The environment awareness is increased while
-human-driven mistakes are minimized. The transition from half autonomous and
-half human driven traffic to fully autonomous roads is operated without any
-integration issue. Consequently, the aim of safety on vehicular traffic is
-solidly confirmed.
+As a result, same amount of information is shared by less amount of packet flow.
+Therefore, the proposed cognition framework solves the issue of the messaging
+overhead. Figure~\ref{fig:effectedVeh} shows the amount of affected vehicles in
+case of an unexpected incident. Results show that the amount of vehicles
+which need to immediately take an action to avoid a crash with respect to the
+incident is decreased by the proposed cognition framework.
+Figure~\ref{fig:urban3d} shows the effect of transmission parameters on the
+amount of affected vehicles in case of connection failure.
+
+The cognition framework based on AMCT provides the Pareto optimality on safety
+and comfort. The environment awareness is increased while human-driven mistakes
+are minimized. The transition from half autonomous and half human driven traffic
+to fully autonomous roads is managed without any integration issue.
+Consequently, the aim of safety in vehicular traffic is solidly confirmed.
 
 \begin{figure}[tbh]
   \centering
   \includegraphics[width=0.5\textwidth]{figs/urban3d.png}
   \caption{{\fontsize{10}{10}\selectfont The percentage of influenced vehicles
-  in the experiment region is shown with the changes of the transmission power
-  and the distance; in case of the connection failure between the ego vehicle
-  and its neighbor vehicles. We assumed 75$\%$ of vehicles in the chosen urban
-  traffic use the proposed cognition framework. The ego vehicle can connect to
-  further vehicles with the higher transmission power which increases the number
-  of neighbor vehicles. Similarly, higher transmission distance covers more
-  neighbor vehicles. Connection failure affects higher number of neighbor
-  vehicles since higher levels on both of these factor increase the number of
-  connected vehicles.}}
+  in the experiment region is shown with respect to the changes of the
+  transmission power and the distance in case of a connection failure between
+  the ego vehicle and its neighbor vehicles. We assumed 75$\%$ of vehicles in
+  the chosen urban traffic use the proposed cognition framework. The ego vehicle
+  can connect to more distant vehicles with a higher transmission power which  
+  increases the number of neighbor vehicles. Similarly, a higher transmission
+  distance covers more neighbor vehicles. Therefore, a connection failure
+  affects a higher number of neighbor vehicles since higher levels on both of
+  these factors increase the number of connected vehicles.}}
   \label{fig:urban3d}
 \end{figure}
 
