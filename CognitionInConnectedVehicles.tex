@@ -26,19 +26,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand*\quotesize{60}
-
+ 
 \newcommand*{\openquote}
    {\tikz[remember picture,overlay,xshift=-4ex,yshift=-2.5ex]
    \node (OQ) {\quotefont\fontsize{\quotesize}{\quotesize}\selectfont``};\kern0pt}
-   
+    
 \newcommand*{\closequote}[1]
   {\tikz[remember picture,overlay,xshift=4ex,yshift={#1}]
    \node (CQ) {\quotefont\fontsize{\quotesize}{\quotesize}\selectfont''};}
 
 \colorlet{shadecolor}{Azure}
-
+ 
 \newcommand*\shadedauthorformat{\emph}
-
+ 
 \newcommand*\authoralign[1]{%
   \if#1l
     \def\authorfill{}\def\quotefill{\hfill}
@@ -640,7 +640,7 @@ $n(n-1)$.
 \begin{figure*}[!t]
   \begin{center}
   \subfigure[Urban Scenario.]{\label{fig:urbanVsTime}\includegraphics[width=0.45\textwidth]{figs/urbanVsTime.eps}} 
-  \subfigure[Highway Scenario.]{\label{fig:highwayVsTime}\includegraphics[width=0.47\textwidth]{figs/highwayVsTime.eps}}
+  \subfigure[Highway Scenario.]{\label{fig:highwayVsTime}\includegraphics[width=0.46\textwidth]{figs/highwayVsTime.eps}}
   \caption{\fontsize{10}{10}\selectfont The percentage of vehicles in the region
   influenced by an unexpected incident, \textit{e.g.} accident, sudden brake,
   connection failure. An influenced vehicle is defined as a vehicle that needs
@@ -654,9 +654,10 @@ $n(n-1)$.
   of vehicles using the proposed cognition framework. The vehicles using the
   cognition framework are not significantly influenced by the unexpected
   incidents since they can adapt to their current conditions quickly and
-  reliably. Cognition framework can deal with sudden incidents more stably in
-  urban scenario than highway since high speed vehicles create more dynamic
-  environment conditions in highway scenarios.}
+  reliably. The percentage of the influenced vehicles goes to zero in several
+  time steps in the highway scenario since the distance between vehicles are
+  larger (in contrast to urban scenario), and the neighbor vehicles do not need
+  to take an immidiate action.}
   \label{fig:effectedVeh}
   \vspace*{-6mm}
   \end{center}
